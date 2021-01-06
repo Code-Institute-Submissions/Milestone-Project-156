@@ -1,4 +1,4 @@
-# Butcher's Bundle
+# ![logo](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/assets/images/logo-img-small.png) Butcher's Bundle
 
 ## Table of Contents
   - [Introduction](#introduction)
@@ -87,6 +87,36 @@ The website was designed to be intuitive, learnable and consistent.
  
 
 ## Features
+
+The website's features are presented in order of importance.
+
+- ### Navigation Bar
+Allows the user to navigate through the page. Because the website consists of a single landing page, the navigation bar will be visible at all times.
+
+- ### Full width CTA (Call to Action)
+It helps the user understand the purpose of the website at a first glance. It allows the business to sell its product and the user to find relatable information right away. The height of the CTA is 80% which invites the user to navigate further down the page.
+
+- ### Choose Your Plan/Sign Up Modal Forms
+Invites the user to browse available products and their prices and to join the community.
+
+- ### Service Features Section
+Teaches about the main features of the service presented. Being of equal importance, they are presented in line. Underneath them there is another CTA button.
+
+- ### Business Model Section
+Information on how the product is obtained, how the business idea works, and how the user can go about joining the service and received the product.
+
+- ### Slideshow Photo Gallery Section
+Presentation of the whole range of products available which helps the user understand more about the products available.
+
+- ### Review Section
+Newcomers can learn about past users experiences.
+
+- ### Footer
+Provides contact details and an invitation for the user to sign up for the newsletter. Allows users to explore social networks by accessing the social icons.
+
+- ### Accesibility
+All images come with descriptive text. The website is optimised for screen readers and allows users with impaired vision to zoom in/out anytime.
+
 
 ## Technologies Used
 
