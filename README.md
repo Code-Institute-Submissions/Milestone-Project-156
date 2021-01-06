@@ -90,6 +90,24 @@ The website was designed to be intuitive, learnable and consistent.
 
 ## Technologies Used
 
+- Workspace
+    * [Gitpod](https://gitpod.io/) was used as an online Integrated Development Environment
+
+- Languages
+    * [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    * [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+- Frameworks & Libraries
+    * [Bootstrap4](https://getbootstrap.com/) was used for its incredible responsiveness and styling templates
+    * [Font Awesome](https://fontawesome.com/) icons were used to improve aesthetics and [UX](#ux)
+    * [Google Fonts](https://fonts.google.com/) was also used to enhance the user experience
+    * [Coolors](https://coolors.co/) was used as a tool to establish the color palette
+
+- Version Control
+    * [Github](https://www.github.com) for repository hosting
+
+
+
 ## Testing
 
 ## Deployment
