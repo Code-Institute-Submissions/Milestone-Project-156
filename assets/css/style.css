@@ -51,14 +51,16 @@ body {
 
 .btn-signup {
   text-transform: uppercase;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 600;
-  color: #fff;
+  color: #FFF;
   background-color: #e99e4c;
   border-color: #e99e4c;
-  width: 170px;
+  width: 200px;
+  height: 40px;
   margin-right: 40px;
   border-radius: 0;
+  letter-spacing: 1px;
 }
 
 .btn-signup:hover,
@@ -67,7 +69,7 @@ body {
 .btn-signup:active:focus {
   background-color: #b37530;
   border-color: #b37530;
-  color: #fff;
+  color: #FFF;
 }
 
 /** ----------ALERT CONTAINER---------- **/
@@ -85,7 +87,7 @@ body {
   font-size: 13px;
   font-weight: 500;
   text-align: center;
-  color: white;
+  color: #FFF;
   margin: 12px 0px 12px 0px;
 }
 
@@ -122,7 +124,7 @@ padding-left: 150px;
 }
 
 .jumbotron-header {
-  color: white;
+  color: #FFF;
   font-size: 50px;
   font-weight: 800;
   text-transform: uppercase;
@@ -133,14 +135,15 @@ padding-left: 150px;
 .jumbotron-btn {
   text-transform: uppercase;
   font-size: 15px;
-  font-weight: 600;
-  color: white;
+  font-weight: 700;
+  color: #FFF;
   background-color: #e99e4c;
   border-color: #e99e4c;
   margin: 30px;
   height: 50px;
   width: 330px;
   border-radius: 0;
+  letter-spacing: 1px;
 }
 
 .jumbotron-btn:hover,
@@ -149,5 +152,82 @@ padding-left: 150px;
 .jumbotron-btn:active:focus {
   background-color: #b37530;
   border-color: #b37530;
-  color: #fff
+  color: #FFF;
 }   
+
+/**----------SERVICES CONTAINER----------**/
+
+#services {
+  padding: 80px 0;
+}
+
+.services-header {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  color: #070707;
+  letter-spacing: 2px;
+}
+
+.services-paragraph {
+  color: #070707;
+  font-weight: 600;
+  font-size: 30x;
+  margin-bottom: 40px;
+}
+
+#services i {
+  font-size: 70px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services-feature {
+  background: #FFF;
+  height: 330px;
+  max-width: 300px;
+  padding: 0 40px;
+  border: 0px solid rgba(194, 194, 194);
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15);
+  margin: 0px 20px 0px 20px;
+}
+
+.services-feature h3 {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.services-feature p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #8A8E91;
+}
+
+.services-btn {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  color: #FFF;
+  background-color: #e99e4c;
+  border-color: #e99e4c;
+  height: 50px;
+  width: 300px;
+  border-radius: 0;
+  margin-top: 40px;
+}
+
+.services-btn:hover,
+.services-btn:active,
+.services-btn:focus,
+.services-btn:active:focus {
+  background-color: #b37530;
+  border-color: #b37530;
+  color: #FFF;
+}
