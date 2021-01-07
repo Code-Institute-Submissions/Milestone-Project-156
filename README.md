@@ -1,4 +1,4 @@
-# ![logo](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/assets/images/logo-img-small.png) Butcher's Bundle
+# ![logo](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/assets/images/logo-icon.ico) Butcher's Bundle
 
 ## Table of Contents
   - [Introduction](#introduction)
@@ -131,11 +131,16 @@ All images come with descriptive text. The website is optimised for screen reade
     * [Bootstrap4](https://getbootstrap.com/) was used for its incredible responsiveness and styling templates
     * [Font Awesome](https://fontawesome.com/) icons were used to improve aesthetics and [UX](#ux)
     * [Google Fonts](https://fonts.google.com/) was also used to enhance the user experience
-    * [Coolors](https://coolors.co/) was used as a tool to establish the color palette
 
 - Version Control
     * [Github](https://www.github.com) for repository hosting
 
+- Wireframes
+    * [Balsamiq](https://balsamiq.com/) for creating [wireframes](#wireframes)
+
+- Media
+    * [ConvertIco](https://convertico.com/) for converting the logo format from .png to .ico
+    * [Coolors](https://coolors.co/) was used as a tool to establish the color palette
 
 
 ## Testing
