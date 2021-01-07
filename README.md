@@ -1,6 +1,9 @@
 # ![logo](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/assets/images/logo-icon.ico) Butcher's Bundle
 
+This is the presentation website for a new online service that is aiming to deliver high-quality meat products for families across Ireland, based on a monthly or yearly subscription. Butcher's Bundle is an educational project that serves as the Milestone Project 1 for the **Full-Stack Software Developer** programme powered by **Code Institute**.
+
 ## Table of Contents
+  - [Demo](#demo)
   - [Introduction](#introduction)
   - [UX](#ux)
     - [Business Goals](#business-goals)
@@ -18,9 +21,9 @@
   - [Credits](#credits)
   - [Acknowledgements](#acknowledgements)
 
-## Introduction
+## Demo 
 
-This is the presentation website for a new online service that is aiming to deliver high-quality meat products for families across Ireland, based on a monthly or yearly subscription. Butcher's Bundle is an educational project that serves as the Milestone Project 1 for the **Full-Stack Software Developer** programme powered by **Code Institute**.
+ [Live Website](https://alexandruvalentin.github.io/Milestone-Project-1/)
 
 ## UX
 
@@ -141,6 +144,7 @@ All images come with descriptive text. The website is optimised for screen reade
 - Media
     * [ConvertIco](https://convertico.com/) for converting the logo format from .png to .ico
     * [Coolors](https://coolors.co/) was used as a tool to establish the color palette
+    * [Photopea](https://www.photopea.com/) for resizing images
 
 
 ## Testing
