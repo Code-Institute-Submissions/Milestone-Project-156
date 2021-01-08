@@ -2,6 +2,17 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+::selection {
+    color: #F7FFF7;
+    background: #e99e4c;
+}
+
+::-moz-selection {
+    color: #F7FFF7;
+    background: #e99e4c;
+}
+
+
 /** ----------NAVBAR---------- **/
 #nav-bar {
   position: sticky;
@@ -256,9 +267,6 @@ padding-left: 150px;
   text-align: center;
 }
 
-/** 1,2,3,4 STEPS **/
-
-/* WE SOURCE SECTION */
 .howitworks-bg {
   background-size: cover;
   background-position: center center;
@@ -274,15 +282,29 @@ padding-left: 150px;
 .howitworks-text {
   position: absolute;
   background-color: #FFF;
-  padding: 1rem;
-  max-height: 200px;
+  padding: 2.5rem;
   border: 0px solid rgba(194, 194, 194);
   box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15);
   width: 80%;
   z-index: 1;
   min-height: 200px;
+  max-height: 400px;
 }
 
+.howitworks-text h3 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.howitworks-text h3 strong {
+    color: #e99e4c;
+}
+
+.howitworks-text p {
+    font-weight: 300;
+    color: #8A8E91;
+}
 .wesource-text-left .howitworks-text {
   right: -10%;
 }
