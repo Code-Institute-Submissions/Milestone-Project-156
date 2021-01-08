@@ -1,4 +1,4 @@
-# ![logo](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/assets/images/logo-icon.ico) Butcher's Bundle
+# ![logo](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/assets/images/logo-small.png) Butcher's Bundle
 
 This is the presentation website for a new online service that is aiming to deliver high-quality meat products for families across Ireland, based on a monthly or yearly subscription. Butcher's Bundle is an educational project that serves as the Milestone Project 1 for the **Full-Stack Software Developer** programme powered by **Code Institute**.
 
@@ -99,8 +99,8 @@ Allows the user to navigate through the page. Because the website consists of a 
 - ### Full width CTA (Call to Action)
 It helps the user understand the purpose of the website at a first glance. It allows the business to sell its product and the user to find relatable information right away. The height of the CTA is 80% which invites the user to navigate further down the page.
 
-- ### Choose Your Plan/Sign Up Modal Forms
-Invites the user to browse available products and their prices and to join the community.
+- ### Choose Your Plan Modal Forms
+Allows the user to claim offers and join the community.
 
 - ### Service Features Section
 Teaches about the main features of the service presented. Being of equal importance, they are presented in line. Underneath them there is another CTA button.
