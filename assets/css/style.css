@@ -3,6 +3,7 @@
 
 body {
   font-family: "Inter", sans-serif;
+  color: #070707;
 }
 
 ::selection {
@@ -411,5 +412,84 @@ padding-left: 150px;
   }
 }
 
+/**----------EXPLORE CONTAINER----------**/
 
 
+.explore-container {
+    height: 80vh;
+    background: url("/assets/images/explore-bg.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+.explore-header {
+     font-family: "Hachi Maru Pop", serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  color: #070707;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#carouselExampleControls {
+    padding: 2.5rem;
+}
+
+.explore-row {
+    background: transparent;
+ height: 350px;
+  max-width: 1200px;
+  padding: 0 40px;
+  margin: 0px 20px 0px 20px;
+}
+
+.bundle-feature-left {
+    background-color: transparent;
+    padding: 3rem;
+}
+
+.bundle-feature-right {
+    background-color: transparent;
+    padding: 3rem;
+}
+
+.bundle-feature-left h3 {
+    text-transform: uppercase;
+    color: #e99e4c;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 32px;
+}
+
+.bundle-feature-left p {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.bundle-feature-left ul {
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.bundle-feature-right h3 {
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+
+.bundle-feature-right p {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.bundle-feature-right ul {
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 1rem;
+}
