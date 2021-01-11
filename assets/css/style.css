@@ -547,3 +547,49 @@ padding-left: 150px;
     height: 50px;
     width: 25px;
 }
+
+/** ----------REVIEW CONTAINER---------- **/
+
+#review {
+    padding: 3.5rem;
+}
+
+.review-header {
+    font-size: 25px;
+  font-weight:500;
+  color: #070707;
+   margin: .7em auto;
+}
+
+.review-header:before, .review-header:after {
+  content: "";
+  display: inline-block;
+  width: 50%;
+  margin: 0 .5em 0 -55%;
+  vertical-align: middle;
+  border-bottom: 1px rgb(228, 228, 228) solid;
+}
+.review-header:after {
+  margin: 0 -55% 0 .5em;
+}
+
+.review-header strong {
+    color: #e99e4c;
+}
+
+.review {
+    border-left: 4px solid #e99e4c;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.review img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.user-details {
+    display: inline-block;
+}
