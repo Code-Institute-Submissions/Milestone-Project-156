@@ -449,13 +449,13 @@ padding-left: 150px;
 
 #carouselExampleControls {
     padding: 4rem 2rem 4rem 2rem;
+    height: 350px;
+  max-width: 1200px;
 }
 
 .explore-row {
     background: transparent;
- height: 350px;
-  max-width: 1200px;
-  margin: 0px 20px 0px 20px;
+    margin: 0px 20px 0px 20px;
 }
 
 .bundle-feature-left {
@@ -526,4 +526,24 @@ padding-left: 150px;
   background-color: #b37530;
   border-color: #b37530;
   color: #FFF;
+}
+
+.carousel-control-next {
+    width: 25px;
+}
+
+.carousel-control-prev {
+    width: 25px;
+}
+
+.carousel-control-next-icon {
+    background-color: #e99e4c;
+       height: 50px;
+    width: 25px;
+}
+
+.carousel-control-prev-icon {
+    background-color: #e99e4c;
+    height: 50px;
+    width: 25px;
 }
