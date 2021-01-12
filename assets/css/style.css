@@ -22,7 +22,8 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
-  background-color: #F7FFF7;
+  background-color: #FFF;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
 }
 
 .navbar-brand {
@@ -68,7 +69,7 @@ body {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
-  color: #FFF;
+  color: #F6F8FF;
   background-color: #e99e4c;
   border-color: #e99e4c;
   width: 200px;
@@ -597,7 +598,7 @@ padding-left: 150px;
 .review-alert {
     padding-top: 2rem;
     font-family: "Hachi Maru Pop", serif;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .review-alert strong {
@@ -616,22 +617,23 @@ padding-left: 150px;
 /**----------FOOTER Section----------**/
 
 .footer {
-    background-color: rgb(78, 78, 78);
+    background-color: rgb(65, 65, 65);
     color: #F6F8FF;
-    border-top: 80px solid #8A8E91;
+    border-top: 60px solid rgb(136, 136, 136);
+    border-bottom: 60px solid #070707;
 }
 
 /**Slogan Column**/
 
 #slogan-column {
     text-align: center;
-    font-size: 12px;
+    font-size: 12px;  
 }
 
 .slogan-paragraph {
     max-width: 300px;
-    margin-top: 3.5rem;
     font-weight: 500;
+    margin-top: 3rem; 
 }
 
 /**Contact Column**/
@@ -642,13 +644,78 @@ padding-left: 150px;
 }
 
 #contact-column img {
+    margin-top: 0.5rem;
     width: 180px;
     height: 50px;
 }
 
 #contact-column i {
-    color: #b37530;
+    color: #e99e4c;
     font-size: 24px;
     margin-right: 10px;
 }
-/**Newsletter Column**/
+/**CTA Column**/
+
+#cta-column {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#cta-column .cta-paragraph {
+    margin-top: 1rem;
+    font-size: 15px;
+}
+
+#cta-column .cta-form {
+    font-size: 18px;
+}
+
+#cta-column .cta-btn {
+    background-color: #e99e4c;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 800;
+    border: 1px solid #e99e4c;
+}
+
+#cta-column .cta-btn:hover,
+.cta-btn:active,
+.cta-btn:focus {
+    background-color: #b37530;
+    border: 1px solid #b37530;
+    color: #FFF;
+    transition: all 0.20s ease-in-out;
+}
+
+/**Social Icons**/
+.social-icons {
+    margin-top: 1.5rem;
+}
+
+.social-icons li a i {
+    border-radius: 50%;
+    font-size: 1rem;
+    width: 2rem;
+    height: 2rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    color: #FFF;
+    background-color: #e99e4c;
+    transition: all 0.20s ease-in-out;
+}
+
+.social-icons li a i:hover {
+    background: #3C5830;
+    background-color: #b37530;
+}
+
+/**Copyrights**/
+
+.copyrights-paragraph {
+    margin-top: 1rem;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+}
