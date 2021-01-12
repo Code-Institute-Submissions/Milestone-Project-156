@@ -626,14 +626,14 @@ padding-left: 150px;
 /**Slogan Column**/
 
 #slogan-column {
-    text-align: center;
-    font-size: 12px;  
+    display: flex;
+    align-items: center;
 }
 
-.slogan-paragraph {
-    max-width: 300px;
-    font-weight: 500;
-    margin-top: 3rem; 
+#slogan-column p {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
 }
 
 /**Contact Column**/
