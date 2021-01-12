@@ -593,3 +593,20 @@ padding-left: 150px;
 .user-details {
     display: inline-block;
 }
+
+.review-alert {
+    padding-top: 2rem;
+    font-family: "Hachi Maru Pop", serif;
+    font-size: 25px;
+}
+
+.review-alert strong {
+    color: #e99e4c;
+}
+
+.review-row {
+    display: flex;
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
+}
