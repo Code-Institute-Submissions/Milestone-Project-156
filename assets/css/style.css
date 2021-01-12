@@ -87,7 +87,7 @@ body {
   color: #FFF;
 }
 
-/** ----------ALERT CONTAINER---------- **/
+/** ----------ALERT Section---------- **/
 
 .alert-container {
   right: 0;
@@ -129,7 +129,7 @@ body {
     position: relative;
 }
 
-/**----------JUMBOTRON(callout container)---------**/
+/**----------JUMBOTRON(callout section)---------**/
 
 .jumbotron {
   background: transparent;
@@ -170,7 +170,7 @@ padding-left: 150px;
   color: #FFF;
 }   
 
-/**----------SERVICES CONTAINER----------**/
+/**----------SERVICES Section----------**/
 
 #services {
   padding: 3.5rem 0;
@@ -248,7 +248,7 @@ padding-left: 150px;
   color: #FFF;
 }
 
-/**----------HOW IT WORKS CONTAINER----------**/
+/**----------HOW IT WORKS Section----------**/
 
 #howitworks {
     padding: 3.5rem 0;
@@ -412,7 +412,7 @@ padding-left: 150px;
   }
 }
 
-/**----------EXPLORE CONTAINER----------**/
+/**----------EXPLORE Section----------**/
 
 #explore {
     padding: 3.5rem;
@@ -548,7 +548,7 @@ padding-left: 150px;
     width: 25px;
 }
 
-/** ----------REVIEW CONTAINER---------- **/
+/** ----------REVIEW Section---------- **/
 
 #review {
     padding: 3.5rem;
@@ -556,7 +556,7 @@ padding-left: 150px;
 
 .review-header {
     font-size: 25px;
-  font-weight:500;
+  font-weight: 500;
   color: #070707;
    margin: .7em auto;
 }
@@ -610,3 +610,45 @@ padding-left: 150px;
     justify-content: center;
     align-items: center;
 }
+
+
+
+/**----------FOOTER Section----------**/
+
+.footer {
+    background-color: rgb(78, 78, 78);
+    color: #F6F8FF;
+    border-top: 80px solid #8A8E91;
+}
+
+/**Slogan Column**/
+
+#slogan-column {
+    text-align: center;
+    font-size: 12px;
+}
+
+.slogan-paragraph {
+    max-width: 300px;
+    margin-top: 3.5rem;
+    font-weight: 500;
+}
+
+/**Contact Column**/
+
+#contact-column {
+    text-align: center;
+    font-size: 12px;
+}
+
+#contact-column img {
+    width: 180px;
+    height: 50px;
+}
+
+#contact-column i {
+    color: #b37530;
+    font-size: 24px;
+    margin-right: 10px;
+}
+/**Newsletter Column**/
