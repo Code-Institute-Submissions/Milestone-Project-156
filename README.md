@@ -144,7 +144,8 @@ All images come with descriptive text. The website is optimised for screen reade
 - Media
     * [ConvertIco](https://convertico.com/) for converting the logo format from .png to .ico
     * [Coolors](https://coolors.co/) was used as a tool to establish the color palette
-    * [Photopea](https://www.photopea.com/) for resizing images
+    * [Photopea](https://www.photopea.com/) was used to edit images
+    * [Adobe Photoshop Express](https://photoshop.adobe.com/resize) for resizing images
 
 
 ## Testing
