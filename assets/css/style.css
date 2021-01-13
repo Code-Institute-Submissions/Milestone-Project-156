@@ -68,7 +68,7 @@ body {
 .btn-signup {
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 800;
   color: #F6F8FF;
   background-color: #e99e4c;
   border-color: #e99e4c;
@@ -151,7 +151,7 @@ padding-left: 150px;
 .jumbotron-btn {
   text-transform: uppercase;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 800;
   color: #FFF;
   background-color: #e99e4c;
   border-color: #e99e4c;
@@ -230,7 +230,7 @@ padding-left: 150px;
 .services-btn {
   text-transform: uppercase;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 800;
   color: #FFF;
   background-color: #e99e4c;
   border-color: #e99e4c;
@@ -238,6 +238,7 @@ padding-left: 150px;
   width: 300px;
   border-radius: 0;
   margin-top: 40px;
+  letter-spacing: 1px;
 }
 
 .services-btn:hover,
@@ -509,7 +510,7 @@ padding-left: 150px;
 .explore-btn {
   text-transform: uppercase;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 800;
   color: #FFF;
   background-color: #e99e4c;
   border-color: #e99e4c;
@@ -517,7 +518,7 @@ padding-left: 150px;
   width: 250px;
   border-radius: 0;
   margin-top: 30px;
-
+  letter-spacing: 1px;
 }
 
 .explore-btn:hover,
@@ -616,7 +617,7 @@ padding-left: 150px;
 
 /**----------FOOTER Section----------**/
 
-.footer {
+#footer {
     background-color: rgb(65, 65, 65);
     color: #F6F8FF;
     border-top: 60px solid rgb(136, 136, 136);
@@ -677,6 +678,7 @@ padding-left: 150px;
     text-transform: uppercase;
     font-weight: 800;
     border: 1px solid #e99e4c;
+    letter-spacing: 1px;
 }
 
 #cta-column .cta-btn:hover,
