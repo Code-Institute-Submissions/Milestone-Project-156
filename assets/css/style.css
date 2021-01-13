@@ -69,7 +69,7 @@ body {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
-  color: #F6F8FF;
+  color: #FFF;
   background-color: #e99e4c;
   border-color: #e99e4c;
   width: 200px;
@@ -720,4 +720,40 @@ padding-left: 150px;
     font-weight: 600;
     text-align: center;
     vertical-align: middle;
+}
+
+/**SIGN UP Modal Form**/
+
+#signUpModal {
+    top: 10%;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.claim-button {
+    text-align: center;
+}
+
+.btn-claim {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  color: #FFF;
+  background-color: #e99e4c;
+  border-color: #e99e4c;
+  width: 200px;
+  height: 40px;
+  border-radius: 0;
+  letter-spacing: 1px;
+}
+
+.btn-claim:hover,
+.btn-claim:active,
+.btn-claim:focus,
+.btn-claim:active:focus {
+  background-color: #b37530;
+  border-color: #b37530;
+  color: #FFF;
 }

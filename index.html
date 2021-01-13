@@ -74,7 +74,8 @@
                         meat delivered<br />
                         to your door
                     </h1>
-                    <button class="btn jumbotron-btn">Choose your plan</button>
+                    <button class="btn jumbotron-btn" data-toggle="modal" data-target="#signUpModal">Choose your
+                        plan</button>
                 </section>
             </div>
         </div>
@@ -206,7 +207,7 @@
     <section id="explore">
         <h2 class="explore-header">Explore the <br>possibilities</h2>
         <p class="explore-paragraph-top"><b>Free-range organic chicken. 100% grass-fed beef. Wild-caught seafood.
-            Heritage-breed pork.</b></p>
+                Heritage-breed pork.</b></p>
 
         <div class="container explore-container">
             <div class="row">
@@ -356,7 +357,8 @@
             <div class="col-12">
                 <div class="text-center">
                     <p class="explore-paragraph-bottom"><b>Always humanely raised. No antibiotics ever.</b></p>
-                    <button class="btn explore-btn">Choose your plan</button>
+                    <button class="btn explore-btn" data-toggle="modal" data-target="#signUpModal">Choose your
+                        plan</button>
                 </div>
             </div>
         </div>
@@ -399,7 +401,7 @@
 
                     <div class="col-12">
                         <p class="review-alert text-center"><b>Use <strong>#ButchersBundle</strong> for a chance to win
-                            free Custom Bundles!</b></p>
+                                free Custom Bundles!</b></p>
                     </div>
                 </div>
             </div>
@@ -462,14 +464,45 @@
                         </li>
                     </ul>
                 </div>
-                
+
             </div>
             <div class="col-12">
-            <p class="copyrights-paragraph">Copyrights © Alexandru-Valentin Grapa 2021. Some rights reserved.</p>
+                <p class="copyrights-paragraph">Copyrights © Alexandru-Valentin Grapa 2021. Some rights reserved.</p>
             </div>
         </div>
     </footer>
     <!--/.Footer-->
+
+    <div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="signUpModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-logo text-center">
+                        <img src="/assets/images/logo-image.png" width="180" height="50" />
+                        <h5 class="modal-title" id="signUpModalLabel">Free ultimate keto bundle</h5>
+                        <p class="form-text text-muted">Get up to 10 lbs of high-quality meat—a pork butt, bone-in
+                            chicken thighs, and ground beef—FREE in your first box.
+                            ButcherBox get started form
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" />
+                        </div>
+                        <div class="claim-button">
+                        <button type="submit" class="btn btn-claim">Claim Offer</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
