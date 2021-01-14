@@ -666,6 +666,7 @@ padding-left: 150px;
 #cta-column .cta-paragraph {
     margin-top: 1rem;
     font-size: 15px;
+    letter-spacing: 0.5px;
 }
 
 #cta-column .cta-form {
@@ -728,15 +729,41 @@ padding-left: 150px;
     top: 10%;
 }
 
-.modal-content {
-    border-radius: 0;
+.modal-title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 25px;
+    color: #e99e4c;
+    letter-spacing: 0.5px;
+}
+
+.form-text {
+    font-weight: 500;
+}
+
+.form-group {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 0.5px;
 }
 
 .claim-button {
     text-align: center;
 }
 
-.btn-claim {
+.form-control {
+    border-radius: 0;
+}
+
+.form-control:active, .form-control:focus {
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #e99e4c;
+}
+
+
+.claim-btn {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -749,10 +776,10 @@ padding-left: 150px;
   letter-spacing: 1px;
 }
 
-.btn-claim:hover,
-.btn-claim:active,
-.btn-claim:focus,
-.btn-claim:active:focus {
+.claim-btn:hover,
+.claim-btn:active,
+.claim-btn:focus,
+.claim-btn:active:focus {
   background-color: #b37530;
   border-color: #b37530;
   color: #FFF;
