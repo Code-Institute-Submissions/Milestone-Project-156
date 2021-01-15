@@ -55,14 +55,14 @@ body {
   height: 40px;
 }
 
-.navbar-toggler {
-  border: 0px !important;
-  padding-right: 20px !important;
+.toggler:active, .toggler:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 .fa-bars {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .btn-signup {
@@ -119,7 +119,7 @@ body {
 }
 .callout-container {
   height: 75vh;
-    background: url("/assets/images/hero-image.jpg") no-repeat center center fixed;
+    background: url("assets/images/hero-image.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -349,7 +349,7 @@ padding-left: 150px;
 }
 
 #we-source .howitworks-bg {
-  background-image: url("/assets/images/we-source.jpg");
+  background-image: url("assets/images/we-source.jpg");
 }
 
 /* SECOND CARD */
@@ -358,7 +358,7 @@ padding-left: 150px;
 }
 
 #you-choose .howitworks-bg {
-  background-image: url("/assets/images/you-choose.jpg");
+  background-image: url("assets/images/you-choose.jpg");
 }
 
 /* THIRD CARD */
@@ -367,7 +367,7 @@ padding-left: 150px;
 }
 
 #we-deliver .howitworks-bg {
-  background-image: url("/assets/images/we-deliver.jpg");
+  background-image: url("assets/images/we-deliver.jpg");
 }
 
 /* FOURTH CARD */
@@ -376,7 +376,7 @@ padding-left: 150px;
 }
 
 #you-enjoy .howitworks-bg {
-  background-image: url("/assets/images/you-enjoy.jpg");
+  background-image: url("assets/images/you-enjoy.jpg");
 }
 
 /* MEDIA QUERIES */
@@ -668,7 +668,7 @@ padding-left: 150px;
 }
 
 #cta-column .cta-label {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     font-size: 15px;
     letter-spacing: 0.5px;
 }
@@ -800,3 +800,25 @@ padding-left: 150px;
 
 /**MEDIA QUERIES**/
 
+@media screen and (max-width: 375px) {
+    .navbar-brand {
+  display: block;
+  max-width: 60%;
+  padding-left: 20px;
+}
+.navbar-brand img {
+  width: 100%;
+}
+
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-brand {
+  display: block;
+  max-width: 20%;
+  padding-left: 20px;
+}
+.navbar-brand img {
+  width: 100%;
+}
+}
