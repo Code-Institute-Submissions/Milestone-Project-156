@@ -663,23 +663,36 @@ padding-left: 150px;
     font-weight: 800;
 }
 
-#cta-column .cta-paragraph {
+#cta-form {
+    display: inline-block;
+}
+
+#cta-column .cta-label {
     margin-top: 1rem;
     font-size: 15px;
     letter-spacing: 0.5px;
 }
 
-#cta-column .cta-form {
-    font-size: 18px;
+#cta-input {
+    outline: none;
+    box-shadow: none;
+}
+
+#cta-input:active, #cta-input:focus {
+    box-shadow: none;
+    outline: none;
+    border: 2px solid #e99e4c;
 }
 
 #cta-column .cta-btn {
     background-color: #e99e4c;
+    border-radius: 0;
     color: #FFF;
     text-transform: uppercase;
     font-weight: 800;
     border: 1px solid #e99e4c;
     letter-spacing: 1px;
+    outline: none;
 }
 
 #cta-column .cta-btn:hover,
@@ -784,3 +797,6 @@ padding-left: 150px;
   border-color: #b37530;
   color: #FFF;
 }
+
+/**MEDIA QUERIES**/
+
