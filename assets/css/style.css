@@ -7,17 +7,17 @@ body {
 }
 
 ::selection {
-    color: #F7FFF7;
+    color: #FFF;
     background: #e99e4c;
 }
 
 ::-moz-selection {
-    color: #F7FFF7;
+    color: #FFF;
     background: #e99e4c;
 }
 
 
-/** ----------NAVBAR---------- **/
+/**----------NAVBAR----------**/
 #nav-bar {
   position: sticky;
   top: 0;
@@ -40,7 +40,7 @@ body {
 }
 
 .navbar-nav li a {
-  color: #070707;
+    color: #070707;
   font-weight: 600;
   font-size: 15px;
   float: right;
@@ -56,6 +56,7 @@ body {
 }
 
 .toggler:active, .toggler:focus {
+
     outline: none;
     box-shadow: none;
 }
@@ -119,7 +120,11 @@ body {
 }
 .callout-container {
   height: 75vh;
-    background: url("assets/images/hero-image.jpg") no-repeat center center fixed;
+    background: url("../images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-position: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -136,7 +141,6 @@ body {
   background: transparent;
 padding-top: 150px;
 padding-left: 150px;
-  
 }
 
 .jumbotron-header {
@@ -181,13 +185,11 @@ padding-left: 150px;
 .services-header {
   text-transform: uppercase;
   font-size: 40px;
-  font-weight: 700;
-  color: #070707;
+  font-weight: 800;
   letter-spacing: 2px;
 }
 
 .services-paragraph {
-  color: #070707;
   font-weight: 500;
   font-size: 30x;
   margin-bottom: 40px;
@@ -259,14 +261,12 @@ padding-left: 150px;
 .howitworks-header {
   text-transform: uppercase;
   font-size: 40px;
-  font-weight: 700;
-  color: #070707;
+  font-weight: 800;
   letter-spacing: 2px;
   text-align: center;
 }
 
 .howitworks-paragraph {
-  color: #070707;
   font-weight: 500;
   font-size: 30x;
   margin-bottom: 40px;
@@ -349,7 +349,7 @@ padding-left: 150px;
 }
 
 #we-source .howitworks-bg {
-  background-image: url("assets/images/we-source.jpg");
+  background-image: url("../images/we-source.jpg");
 }
 
 /* SECOND CARD */
@@ -358,7 +358,7 @@ padding-left: 150px;
 }
 
 #you-choose .howitworks-bg {
-  background-image: url("assets/images/you-choose.jpg");
+  background-image: url("../images/you-choose.jpg");
 }
 
 /* THIRD CARD */
@@ -367,7 +367,7 @@ padding-left: 150px;
 }
 
 #we-deliver .howitworks-bg {
-  background-image: url("assets/images/we-deliver.jpg");
+  background-image: url("../images/we-deliver.jpg");
 }
 
 /* FOURTH CARD */
@@ -376,7 +376,7 @@ padding-left: 150px;
 }
 
 #you-enjoy .howitworks-bg {
-  background-image: url("assets/images/you-enjoy.jpg");
+  background-image: url("../images/you-enjoy.jpg");
 }
 
 /* MEDIA QUERIES */
@@ -429,21 +429,18 @@ padding-left: 150px;
 .explore-header {
   text-transform: uppercase;
   font-size: 40px;
-  font-weight: 700;
-  color: #070707;
+  font-weight: 800;
   letter-spacing: 2px;
   text-align: center;
 }
 
 .explore-paragraph-top {
-    color: #070707;
     font-size: 1rem;
     text-align: center;
     font-family: "Hachi Maru Pop", serif;
 }
 
 .explore-paragraph-bottom {
-    color: #070707;
     font-size: 1rem;
     text-align: center;
     font-family: "Hachi Maru Pop", serif;
@@ -559,7 +556,6 @@ padding-left: 150px;
 .review-header {
     font-size: 25px;
   font-weight: 500;
-  color: #070707;
    margin: .7em auto;
 }
 
@@ -800,25 +796,57 @@ padding-left: 150px;
 
 /**MEDIA QUERIES**/
 
-@media screen and (max-width: 375px) {
-    .navbar-brand {
-  display: block;
-  max-width: 60%;
-  padding-left: 20px;
-}
-.navbar-brand img {
-  width: 100%;
+/*LARGE SCREEN*/
+
+@media screen and (max-width: 1201px) {
+    #services .row {
+        display: inline-block;
+    }
+
+    .services-feature {
+        margin-top: 30px;
+    }
 }
 
-}
-
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
+    /*---------------------navbar*/
     .navbar-brand {
-  display: block;
   max-width: 20%;
-  padding-left: 20px;
+    }
+    /*---------------------callout container&jumbotron*/
+    .callout-container {
+        height: 55vh;
+    }
+
+    .jumbotron {
+      padding-top: 100px;
+     padding-left: 100px;
+    }
+
+    .jumbotron-header {
+       font-size: 40px;
+      padding-left: 20px;
+    }
+
+    .jumbotron-btn {
+        font-size: 13px;
+        margin: 10px 0 0 20px;
+         height: 40px;
+         width: 230px;
+    }
+
+    /*---------------------services*/
+    #services .row {
+        display: inline-block;
+    }
+
+    .services-feature {
+        margin-top: 30px;
+    }
+
+    .services-paragraph {
+        margin-bottom: 10px;
+    }
 }
-.navbar-brand img {
-  width: 100%;
-}
-}
+
+
