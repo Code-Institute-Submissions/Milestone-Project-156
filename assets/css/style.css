@@ -192,7 +192,7 @@ padding-left: 150px;
 
 .services-paragraph {
   font-weight: 500;
-  font-size: 30x;
+  font-size: 16px;
   margin-bottom: 40px;
 }
 
@@ -269,7 +269,7 @@ padding-left: 150px;
 
 .howitworks-paragraph {
   font-weight: 500;
-  font-size: 30x;
+  font-size: 16px;
   margin-bottom: 40px;
   text-align: center;
 }
@@ -389,7 +389,6 @@ padding-left: 150px;
 }
 
 .explore-container {
-    height: 45vh;
   position: relative;
 }
 
@@ -415,7 +414,7 @@ padding-left: 150px;
 
 #carouselExampleControls {
     padding: 4rem 2rem 4rem 2rem;
-    height: 350px;
+    position: relative;
   max-width: 1200px;
 }
 
@@ -763,8 +762,7 @@ padding-left: 150px;
 
 /**MEDIA QUERIES**/
 
-/*LARGE SCREEN*/
-
+/*X-LARGE SCREEN*/
 @media screen and (max-width: 1201px) {
     #services .row {
         display: inline-block;
@@ -773,8 +771,13 @@ padding-left: 150px;
     .services-feature {
         margin-top: 30px;
     }
+
+    #carouselExampleControls {
+        padding: 2rem 1rem 2rem 1rem;
+    }
 }
 
+/*LARGE SCREEN*/
 @media screen and (max-width: 991px) {
     /*---------------------sections*/
     #services {
@@ -889,10 +892,6 @@ padding-left: 150px;
         height: auto;
         padding: 0;
     }
-
-    .explore-container {
-        height: 45vh;
-    }
     
     .explore-header {
         margin-bottom: 20px;
@@ -942,4 +941,68 @@ padding-left: 150px;
 
 }
 
+@media screen and (max-width: 576px) {
+    /*---------------------navbar*/
+    .navbar-brand {
+  max-width: 20%;
+    }
 
+    /*---------------------callout container&jumbotron*/
+    .callout-container {
+        height: 40vh;
+    }
+
+    .jumbotron {
+      padding-top: 50px;
+     padding-left: 50px;
+    }
+
+    .jumbotron-header {
+       font-size: 30px;
+      padding-left: 10px;
+    }
+
+    .jumbotron-btn {
+        font-size: 12px;
+        margin: 10px 0 0 10px;
+         height: 35px;
+         width: 200px;
+    }
+
+    /*---------------------services*/
+
+    .services-header {
+        font-size: 30px;
+    }
+
+    .services-paragraph {
+        font-size: 14px;
+    }
+
+    /*---------------------howitworks*/
+    #howitworks {
+        padding-bottom: 0;
+    }
+
+    .howitworks-header {
+        font-size: 30px;
+    }
+
+    .howitworks-paragraph {
+        font-size: 14px;
+    }
+
+    /*---------------------explore*/
+    #explore {
+        height: auto;
+    }
+
+    .explore-header {
+        font-size: 30px;
+    }
+
+    .explore-btn {
+        display: none;
+    }
+
+}
