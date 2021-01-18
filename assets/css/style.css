@@ -95,17 +95,18 @@ body {
   right: 0;
   position: absolute;
   width: 350px;
-  height: 40px;
+  height: 35px;
   background-color: #1f1300;
   margin-right: 56px;
 }
 
 .alert-container p {
-  font-size: 13px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
   text-align: center;
   color: #FFF;
-  margin: 12px 0px 12px 0px;
+  margin: 10px 0px 10px 0px;
 }
 
 /**----------CALLOUT CONTAINER---------**/
@@ -783,8 +784,7 @@ padding-left: 150px;
   padding: 2.5rem 0; }
 
   #explore {
-      padding: 2.5rem 0;
-  }
+      padding: 2.5rem 0; }
 
   #review {
   padding: 2.5rem 0; }
