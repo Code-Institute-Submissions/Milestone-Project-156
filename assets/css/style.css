@@ -121,11 +121,10 @@ body {
 }
 .callout-container {
   height: 75vh;
-    background: url("../images/hero-image.jpg");
+    background: url("../images/hero-image.jpg") fixed;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
-    background-position: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -704,11 +703,6 @@ margin-left: 140px;
 }
 
 /**SIGN UP Modal Form**/
-
-#signUpModal {
-    top: 10%;
-}
-
 .modal-title {
     text-transform: uppercase;
     font-weight: 900;
@@ -732,7 +726,7 @@ margin-left: 140px;
     text-align: center;
 }
 
-.form-control {
+.modal-content {
     border-radius: 0;
 }
 
@@ -1047,6 +1041,26 @@ margin-left: 140px;
     .explore-row p {
         display: none;
     }
+
+    /*---------------------modal form*/
+    .modal-title {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.form-text {
+    font-size: 12px;
+}
+
+.form-group label {
+    font-size: 14px;
+}
+
+.claim-btn {
+  font-size: 12px;
+  width: 180px;
+  height: 35px;
+}
 
 }
 
