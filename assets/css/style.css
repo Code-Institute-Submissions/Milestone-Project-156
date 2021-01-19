@@ -924,6 +924,10 @@ margin-left: 140px;
         display: none;
     }
 
+    .explore-paragraph-top, .explore-paragraph-bottom {
+        display: none;
+    }
+
     .bundle-feature-left h3 {
     letter-spacing: 0.5px;
     font-size: 28px;
