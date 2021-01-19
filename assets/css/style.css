@@ -575,6 +575,11 @@ padding-left: 150px;
     align-items: center;
 }
 
+.review-row p {
+    font-weight: 500;
+    font-size: 15px;
+}
+
 
 
 /**----------FOOTER Section----------**/
@@ -897,11 +902,7 @@ padding-left: 150px;
         margin-bottom: 20px;
     }
 
-    .explore-paragraph-top {
-        display: none;
-    }
-
-    .explore-paragraph-bottom {
+    .explore-row p {
         display: none;
     }
 
@@ -938,6 +939,7 @@ padding-left: 150px;
     font-size: 0.8rem;
     padding-top: 5px;
 }
+    /*---------------------footer/CTA form*/
 
 }
 
@@ -1001,7 +1003,7 @@ padding-left: 150px;
         font-size: 30px;
     }
 
-    .explore-btn {
+    .explore-row p {
         display: none;
     }
 
