@@ -524,7 +524,17 @@ margin-left: 140px;
    margin: .7em auto;
 }
 
-
+.review-header:before, .review-header:after {
+  content: "";
+  display: inline-block;
+  width: 50%;
+  margin: 0 .5em 0 -55%;
+  vertical-align: middle;
+  border-bottom: 1px rgb(228, 228, 228) solid;
+}
+.review-header:after {
+  margin: 0 -55% 0 .5em;
+}
 
 .review-header strong {
     color: #e99e4c;
@@ -649,6 +659,7 @@ margin-left: 140px;
     border: 1px solid #e99e4c;
     letter-spacing: 1px;
     outline: none;
+    margin-top: 10px;
 }
 
 #cta-column .cta-btn:hover,
@@ -961,12 +972,16 @@ margin-left: 140px;
   font-size: 12px;
   margin-top: 14px;
   height: 35px;
-  width: 240px;
+  width: 240px; }
 
-}
+      /*---------------------review*/
+.review-header:before, .review-header:after {
+   display: none; }
+
+  
 }
 
-}
+
 
 /*SMALL SCREEN*/
 @media screen and (max-width: 576px) {
@@ -1111,4 +1126,5 @@ margin-left: 140px;
          width: 130px;
     }
 
+}
 }
