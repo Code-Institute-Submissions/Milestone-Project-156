@@ -524,17 +524,7 @@ margin-left: 140px;
    margin: .7em auto;
 }
 
-.review-header:before, .review-header:after {
-  content: "";
-  display: inline-block;
-  width: 50%;
-  margin: 0 .5em 0 -55%;
-  vertical-align: middle;
-  border-bottom: 1px rgb(228, 228, 228) solid;
-}
-.review-header:after {
-  margin: 0 -55% 0 .5em;
-}
+
 
 .review-header strong {
     color: #e99e4c;
@@ -726,7 +716,7 @@ margin-left: 140px;
     text-align: center;
 }
 
-.modal-content {
+.form-control, .modal-content {
     border-radius: 0;
 }
 

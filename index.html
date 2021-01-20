@@ -479,40 +479,38 @@
 
     <!--Modal Form-->
     <div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="signUpModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-                <form method="POST" action="https://formdump.codeinstitute.net/">
-                <div class="modal-header">
-                    <div class="modal-logo text-center">
-                        <img src="assets/images/logo-image.png" width="180" height="50" />
-                        <h5 class="modal-title" id="signUpModalLabel">Free ultimate keto bundle</h5>
-                        <p class="form-text text-muted">Get up to 10 lbs of high-quality meat—a pork butt, bone-in
-                            chicken thighs, and ground beef—FREE in your first bundle.
-                            Butcher's Bundle get started form
-                        </p>
-                    </div>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">                
+                    <div class="modal-header">
+                        <div class="text-center">
+                            <img src="assets/images/logo-image.png" width="180" height="50" />
+                            <h5 class="modal-title" id="cta-modal-title">Free ultimate keto bundle</h5>
+                            <p class="modal-text text-muted">Get up to 10 lbs of high-quality meat—a pork butt, bone-in
+                                chicken thighs, and ground beef—FREE in your first bundle.
+                                Butcher's Bundle get started form
+                            </p>
+                        </div>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <i class="fas fa-times"></i>
                         </button>
-                </div>
-                <div class="modal-body">
-                    <form>
+                    </div>
+                    <div class="modal-body">
+                        <form method="POST" action="https://formdump.codeinstitute.net/">
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" />
+                            <label for="Email">Email address</label>
+                            <div>
+                                <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter email" />
+                            </div>
                         </div>
-                        <div class="claim-button">
-                            <button type="submit" class="btn claim-btn shadow-none">Claim Offer</button>
-                        </div>
-                        
-                    </form>
-                </div>
-                </form>
+                            <div class="claim-button">
+                                <button type="submit" class="btn claim-btn shadow-none">Claim offer</button>
+                            </div>
+                        </form> 
+                    </div>                
             </div>
         </div>
     </div>
-<!--/.Modal Form-->
+    <!--/.Modal Form-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
