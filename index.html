@@ -85,45 +85,52 @@
 
     <!--Services Section-->
     <section id="services">
-
-        <div class="container services-container text-center">
-            <h2 class="services-header">What we deliver</h2>
-            <p class="services-paragraph">
-                When you join us, you’re joining a community focused on caring
-                about animals and our <br />planet, improving livelihoods for
-                farmers, and sharing better meals together.
-            </p>
+        <h2 class="services-header">What we deliver</h2>
+        <p class="services-paragraph">
+            When you join us, you’re joining a community focused on caring
+            about animals and our <br />planet, improving livelihoods for
+            farmers, and sharing better meals together.
+        </p>
+        <div class="container-lg">
             <div class="row">
-                <div class="col-md-4 services-feature">
-                    <i class="fas fa-award"></i>
-                    <h3>High-quality meat</h3>
-                    <p>
-                        100% grass-fed beef, free-range organic chicken, heritage-breed
-                        pork, and wild-caught seafood.
-                    </p>
+                <div class="col-12 col-md-4 services-column">
+                    <div class="services-feature">
+                        <i class="fas fa-award"></i>
+                        <h3>High-quality meat</h3>
+                        <p>
+                            100% grass-fed beef, free-range organic chicken, heritage-breed
+                            pork, and wild-caught seafood.
+                        </p>
+                    </div>
                 </div>
-
-                <div class="col-md-4 services-feature">
-                    <i class="fas fa-piggy-bank"></i>
-                    <h3>Unbeatable value</h3>
-                    <p>
-                        Get a range of high-quality cuts, from ground beef to filet
-                        mignon, at an amazing value.
-                    </p>
+                <div class="col-12 col-md-4 services-column">
+                    <div class="services-feature">
+                        <i class="fas fa-piggy-bank"></i>
+                        <h3>Unbeatable value</h3>
+                        <p>
+                            Get a range of high-quality cuts, from ground beef to filet
+                            mignon, at an amazing value.
+                        </p>
+                    </div>
                 </div>
-
-                <div class="col-md-4 services-feature">
-                    <i class="fas fa-universal-access"></i>
-                    <h3>Complete flexibility</h3>
-                    <p>
-                        Shipping is always FREE, we deliver to your door on your schedule,
-                        and you can cancel anytime.
-                    </p>
+                <div class="col-12 col-md-4 services-column">
+                    <div class="services-feature">
+                        <i class="fas fa-universal-access"></i>
+                        <h3>Complete flexibility</h3>
+                        <p>
+                            Shipping is always FREE, we deliver to your door on your schedule,
+                            and you can cancel anytime.
+                        </p>
+                    </div>
                 </div>
             </div>
-
-            <a href="#explore"><button class="btn services-btn shadow-none">Explore Bundles</button></a>
-
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <a href="#explore"><button class="btn services-btn shadow-none">Explore Bundles</button></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!--/.Services Section-->
@@ -480,33 +487,34 @@
     <!--Modal Form-->
     <div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="signUpModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">                
-                    <div class="modal-header">
-                        <div class="text-center">
-                            <img src="assets/images/logo-image.png" width="180" height="50" />
-                            <h5 class="modal-title" id="cta-modal-title">Free ultimate keto bundle</h5>
-                            <p class="modal-text text-muted">Get up to 10 lbs of high-quality meat—a pork butt, bone-in
-                                chicken thighs, and ground beef—FREE in your first bundle.
-                                Butcher's Bundle get started form
-                            </p>
-                        </div>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <i class="fas fa-times"></i>
-                        </button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="text-center">
+                        <img src="assets/images/logo-image.png" width="180" height="50" />
+                        <h5 class="modal-title" id="cta-modal-title">Free ultimate keto bundle</h5>
+                        <p class="modal-text text-muted">Get up to 10 lbs of high-quality meat—a pork butt, bone-in
+                            chicken thighs, and ground beef—FREE in your first bundle.
+                            Butcher's Bundle get started form
+                        </p>
                     </div>
-                    <div class="modal-body">
-                        <form method="POST" action="https://formdump.codeinstitute.net/">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form method="POST" action="https://formdump.codeinstitute.net/">
                         <div class="form-group">
                             <label for="Email">Email address</label>
                             <div>
-                                <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter email" />
+                                <input type="email" class="form-control" id="Email" aria-describedby="emailHelp"
+                                    placeholder="Enter email" />
                             </div>
                         </div>
-                            <div class="claim-button">
-                                <button type="submit" class="btn claim-btn shadow-none">Claim offer</button>
-                            </div>
-                        </form> 
-                    </div>                
+                        <div class="claim-button">
+                            <button type="submit" class="btn claim-btn shadow-none">Claim offer</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
