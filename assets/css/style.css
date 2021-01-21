@@ -139,8 +139,10 @@ body {
 
 .jumbotron {
   background: transparent;
-margin-top: 90px;
-margin-left: 140px;
+  padding: 0;
+margin-top: 10rem;
+margin-left: 12rem;
+margin-bottom: 0;
 }
 
 .jumbotron-header {
@@ -149,7 +151,7 @@ margin-left: 140px;
   font-weight: 800;
   text-transform: uppercase;
   text-align: left;
-
+    margin-bottom: 0;
 }
 
 .jumbotron-btn {
@@ -779,9 +781,13 @@ font-size: 12px;
   height: 32px;
 }
      /*---------------------callout container&jumbotron*/
+     .callout-container {
+        height: 65vh;
+    }
+
     .jumbotron {
-        margin-top: 70px;
-    margin-left: 130px;
+        margin-top: 5rem;
+    margin-left: 10rem;
 }
 
 .jumbotron-header {
@@ -792,7 +798,7 @@ font-size: 12px;
   font-size: 14px;
   margin-top: 18px;
   height: 48px;
-  width: 320px;
+  width: 300px;
 }
 
      /*---------------------services*/
@@ -839,21 +845,20 @@ font-size: 12px;
         height: 60vh;
     }
 
-        .jumbotron {
-        margin-top: 35px;
-    margin-left: 90px;
+    .jumbotron {
+        margin-top: 4rem;
+    margin-left: 8rem;
 }
 
 .jumbotron-header {
-  font-size: 38px;
+  font-size: 45px;
 }
 
 .jumbotron-btn {
-  font-size: 13px;
+  font-size: 14px;
   margin-top: 16px;
-  height: 40px;
+  height: 45px;
   width: 280px;
-
 }
     
     /*---------------------howitworks*/
@@ -965,20 +970,25 @@ font-size: 12px;
 
 @media screen and (max-width: 767px) {
         /*---------------------callout container&jumbotron*/
+        .callout-container {
+        height: 50vh;
+    }
+
         .jumbotron {
-        margin-top: 45px;
-    margin-left: 80px;
+        margin-top: 3rem;
+    margin-left: 6.5rem;
 }
 
 .jumbotron-header {
-  font-size: 32px;
+  font-size: 40px;
 }
 
 .jumbotron-btn {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 14px;
-  height: 35px;
-  width: 240px; }
+  height: 42px;
+  width: 270px;
+}
 
 
   /*---------------------services*/
@@ -1007,21 +1017,22 @@ font-size: 12px;
         height: 40vh;
     }
 
-    .jumbotron {
-      margin-top: 40px;
-      margin-left: 70px;
-    }
+            .jumbotron {
+        margin-top: 2rem;
+    margin-left: 4.5rem;
+}
 
-    .jumbotron-header {
-       font-size: 28px;
-    }
+.jumbotron-header {
+  font-size: 34px;
+}
 
-    .jumbotron-btn {
-        font-size: 10px;
-         height: 30px;
-         margin-top: 12px;
-         width: 200px;
-    }
+.jumbotron-btn {
+  font-size: 13px;
+  margin-top: 12px;
+  height: 38px;
+  width: 250px;
+}
+
 
     /*---------------------services*/
 
@@ -1094,10 +1105,21 @@ font-size: 12px;
 /*X-SMALL SCREEN*/
 
 @media screen and (max-width: 471px) {
-    .jumbotron {
-      margin-top: 25px;
-      margin-left: 50px;
-    }
+         .jumbotron {
+        margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+.jumbotron-header {
+  font-size: 30px;
+}
+
+.jumbotron-btn {
+  font-size: 13px;
+  margin-top: 10px;
+  height: 36px;
+  width: 220px;
+}
 }
 
 @media screen and (max-width: 383px) {
@@ -1107,22 +1129,21 @@ font-size: 12px;
         height: 35vh;
     }
 
-    .jumbotron {
-      margin-top: 10px;
-      margin-left: 40px;
-    }
+     .jumbotron {
+        margin-top: 2.5rem;
+    margin-left: 3rem;
+}
 
-    .jumbotron-header {
-       font-size: 22px;
-    }
+.jumbotron-header {
+  font-size: 27px;
+}
 
-    .jumbotron-btn {
-        font-size: 8px;
-         height: 26px;
-         margin-top: 8px;
-         width: 170px;
-    }
-
+.jumbotron-btn {
+  font-size: 12px;
+  margin-top: 8px;
+  height: 32px;
+  width: 200px;
+}
 }
 
 @media screen and (max-width: 321px) {
@@ -1133,20 +1154,20 @@ font-size: 12px;
     }
 
     .jumbotron {
-      margin-top: 5px;
-      margin-left: 20px;
-    }
+        margin-top: 2rem;
+    margin-left: 2rem;
+}
 
-    .jumbotron-header {
-       font-size: 20px;
-    }
+.jumbotron-header {
+  font-size: 24px;
+}
 
-    .jumbotron-btn {
-        font-size: 7px;
-         height: 22px;
-         margin-top: 4px;
-         width: 130px;
-    }
+.jumbotron-btn {
+  font-size: 12px;
+  margin-top: 8px;
+  height: 30px;
+  width: 180px;
+}
 
 }
 }
