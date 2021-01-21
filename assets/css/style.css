@@ -66,7 +66,7 @@ body {
   font-weight: 800;
 }
 
-.btn-signup {
+.signup-btn {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -80,10 +80,10 @@ body {
   letter-spacing: 1px;
 }
 
-.btn-signup:hover,
-.btn-signup:active,
-.btn-signup:focus,
-.btn-signup:active:focus {
+.signup-btn:hover,
+.signup-btn:active,
+.signup-btn:focus,
+.signup-btn:active:focus {
   background-color: #b37530;
   border-color: #b37530;
   color: #FFF;
@@ -476,8 +476,8 @@ height: 100%;
   color: #FFF;
   background-color: #e99e4c;
   border-color: #e99e4c;
-  height: 40px;
-  width: 250px;
+  height: 50px;
+  width: 300px;
   border-radius: 0;
   margin-top: 30px;
   letter-spacing: 1px;
@@ -764,6 +764,21 @@ height: 100%;
 
 /*X-LARGE SCREEN*/
 @media screen and (max-width: 1201px) {
+/*---------------------navbar*/
+    .signup-btn {
+          width: 180px;
+  height: 35px;
+font-size: 12px;
+    }
+
+    .navbar-nav li a {
+  font-size: 13px; 
+}
+    .vertical-bar {
+
+  height: 32px;
+}
+     /*---------------------callout container&jumbotron*/
     .jumbotron {
         margin-top: 70px;
     margin-left: 130px;
@@ -778,11 +793,24 @@ height: 100%;
   margin-top: 18px;
   height: 48px;
   width: 320px;
-
 }
-    
+
+     /*---------------------services*/
+    .services-btn {
+  height: 48px;
+  width: 250px;
+}
+
+
+
+     /*---------------------explore*/
     #carouselExampleControls {
         padding: 2rem 1rem 2rem 1rem;
+    }
+
+    .explore-btn {
+          height: 48px;
+        width: 250px;
     }
 }
 
@@ -1005,6 +1033,11 @@ height: 100%;
         font-size: 14px;
     }
 
+    .services-btn {
+        height: 42px;
+        width: 220px;
+    }
+
     /*---------------------howitworks*/
     #howitworks {
         padding-bottom: 0;
@@ -1029,6 +1062,11 @@ height: 100%;
 
     .explore-row p {
         display: none;
+    }
+
+    .explore-btn {
+        height: 42px;
+        width: 220px;
     }
 
     /*---------------------modal form*/
