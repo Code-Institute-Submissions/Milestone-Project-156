@@ -927,7 +927,7 @@ font-size: 12px;
     }
     
     .explore-header {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .explore-row p {
@@ -985,6 +985,7 @@ font-size: 12px;
         /*---------------------callout container&jumbotron*/
         .callout-container {
         height: 50vh;
+        background-attachment: scroll;
     }
 
         .jumbotron {
@@ -1046,10 +1047,13 @@ font-size: 12px;
 
     .services-header {
         font-size: 30px;
+        padding: 0 20px 0;
     }
 
     .services-paragraph {
+        padding: 0 20px 0;
         font-size: 14px;
+        margin-bottom: 20px;
     }
 
     .services-btn {
@@ -1068,6 +1072,7 @@ font-size: 12px;
 
     .howitworks-paragraph {
         font-size: 14px;
+        margin-bottom: 20px;
     }
 
     /*---------------------explore*/
@@ -1134,6 +1139,10 @@ font-size: 12px;
   height: 36px;
   width: 220px;
 }
+
+/*---------------------services*/
+
+
 /*---------------------explore*/
 .bundle-feature-left {
     padding: 0 20px 0;
@@ -1152,7 +1161,7 @@ font-size: 12px;
 
 }
 
-@media screen and (max-width: 383px) {
+@media screen and (max-width: 383px) and (max-height: 813px) {
 
     /*---------------------navbar*/
     .navbar-brand {
@@ -1196,20 +1205,23 @@ font-size: 12px;
     }
 
     .jumbotron {
-        margin-top: 2rem;
+        margin-top: 1.5rem;
     margin-left: 2rem;
 }
 
 .jumbotron-header {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .jumbotron-btn {
-  font-size: 12px;
+  font-size: 10px;
   margin-top: 8px;
   height: 30px;
-  width: 180px;
+  width: 150px;
 }
-
+    /*---------------------explore*/
+    .explore-btn {
+        margin-top: 70px;
+    }
 }
 }
