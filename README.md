@@ -150,8 +150,21 @@ All images come with descriptive text. The website is optimised for screen reade
 
 ## Testing
 
+ - [Encountered Issues](#encounteredissues)
+ - [Testing User Stories](#testinguserstories)
+ - [Testing Functionality](#testingfunctionality)
+ - [Testing Compatibility](#testingfunctionality)
+ - [Testing Accessibility](#testingaccessibility)
+ - [Testing Performance](#testingperformance)
+ - [Code Validation](#codevalidation)
+ - [Further Testing](#furthertesting)
+
 ## Deployment
 
 ## Credits
+
+ - [Content](#content)
+ - [Media](#media)
+ - [Code](#code)
 
 ## Acknowledgements
