@@ -391,6 +391,7 @@ height: 100%;
 
 .explore-container {
   position: relative;
+  padding: 0 5px 0;
 }
 
 .explore-header {
@@ -413,10 +414,11 @@ height: 100%;
     font-family: "Hachi Maru Pop", serif;
 }
 
+
 #carouselExampleControls {
     padding: 4rem 2rem 4rem 2rem;
     position: relative;
-  max-width: 1200px;
+ 
 }
 
 .explore-row {
@@ -438,8 +440,8 @@ height: 100%;
     text-transform: uppercase;
     color: #e99e4c;
     font-weight: 800;
-    letter-spacing: 1px;
-    font-size: 32px;
+    letter-spacing: 0.5px;
+    font-size: 30px;
 }
 
 .bundle-feature-left p {
@@ -456,7 +458,7 @@ height: 100%;
 .bundle-feature-right h3 {
     text-transform: uppercase;
     font-weight: 800;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     font-size: 24px;
 }
 
@@ -1105,6 +1107,7 @@ font-size: 12px;
 /*X-SMALL SCREEN*/
 
 @media screen and (max-width: 471px) {
+    /*---------------------callout container&jumbotron*/
          .jumbotron {
         margin-top: 3rem;
     margin-left: 4rem;
@@ -1120,6 +1123,22 @@ font-size: 12px;
   height: 36px;
   width: 220px;
 }
+/*---------------------explore*/
+.bundle-feature-left {
+    padding: 0 20px 0;
+}
+
+.bundle-feature-right {
+    padding: 0 20px 0;
+}
+.bundle-feature-left h3 {
+    text-align: center;
+}
+
+.bundle-feature-right h3 {
+    text-align: center;
+}
+
 }
 
 @media screen and (max-width: 383px) {
