@@ -841,6 +841,7 @@ font-size: 12px;
     /*---------------------navbar*/
     .navbar-brand {
   max-width: 17%;
+  margin-left: 12px;
     }
 
     /*---------------------callout container&jumbotron*/
@@ -975,6 +976,12 @@ font-size: 12px;
    display: none; }
 
 @media screen and (max-width: 767px) {
+/*---------------------navbar*/
+
+.navbar-brand {
+    padding: 0;
+}
+
         /*---------------------callout container&jumbotron*/
         .callout-container {
         height: 50vh;
@@ -1009,7 +1016,7 @@ font-size: 12px;
 @media screen and (max-width: 576px) {
     /*---------------------navbar*/
     .navbar-brand {
-  max-width: 20%;
+  max-width: 22%;
   padding: 0;
     }
 
@@ -1106,6 +1113,11 @@ font-size: 12px;
 /*X-SMALL SCREEN*/
 
 @media screen and (max-width: 471px) {
+    /*---------------------navbar*/
+    .navbar-brand {
+        max-width: 24%;
+        padding: 0;
+    }
     /*---------------------callout container&jumbotron*/
          .jumbotron {
         margin-top: 3rem;
@@ -1142,6 +1154,12 @@ font-size: 12px;
 
 @media screen and (max-width: 383px) {
 
+    /*---------------------navbar*/
+    .navbar-brand {
+        max-width: 26%;
+        padding: 0;
+    }
+
      /*---------------------callout container&jumbotron*/
     .callout-container {
         height: 35vh;
@@ -1165,6 +1183,12 @@ font-size: 12px;
 }
 
 @media screen and (max-width: 321px) {
+/*---------------------navbar*/
+    .navbar-brand {
+        max-width: 30%;
+        padding: 0;
+    }
+    
 
      /*---------------------callout container&jumbotron*/
     .callout-container {
