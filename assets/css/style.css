@@ -28,8 +28,9 @@ body {
 
 .navbar-brand {
   display: block;
-  max-width: 14%;
-  padding-left: 20px;
+  max-width: 12%;
+  margin-left: 40px;
+  margin-right: 0;
 }
 .navbar-brand img {
   width: 100%;
@@ -920,7 +921,7 @@ font-size: 12px;
 
   /*---------------------explore*/
     #carouselExampleControls {
-        height: auto;
+        height: 330px;
         padding: 0;
     }
     
@@ -1009,6 +1010,7 @@ font-size: 12px;
     /*---------------------navbar*/
     .navbar-brand {
   max-width: 20%;
+  padding: 0;
     }
 
     /*---------------------callout container&jumbotron*/
