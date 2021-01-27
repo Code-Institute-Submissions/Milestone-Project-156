@@ -678,7 +678,7 @@ html {
     }
 }
 /*LARGE SCREEN*/
- @media screen and (max-width: 991px) {
+ @media screen and (max-width: 1024px) {
     /*---------------------sections*/
      #services {
          padding: 2.5rem 0;
@@ -699,11 +699,12 @@ html {
     }
     /*---------------------callout container&jumbotron*/
      .callout-container {
-         height: 60vh;
+         height: 40vh;
+         background-attachment: scroll;
     }
      .jumbotron {
-         margin-top: 4rem;
-         margin-left: 8rem;
+         margin-top: 6rem;
+         margin-left: 9rem;
     }
      .jumbotron-header {
          font-size: 45px;
@@ -804,18 +805,17 @@ html {
      .review-header:before, .review-header:after {
          display: none;
     }
-     @media screen and (max-width: 767px) {
+     @media screen and (max-width: 768px) {
         /*---------------------navbar*/
          .navbar-brand {
              padding: 0;
         }
         /*---------------------callout container&jumbotron*/
          .callout-container {
-             height: 50vh;
-             background-attachment: scroll;
+             height: 40vh;
         }
          .jumbotron {
-             margin-top: 3rem;
+             margin-top: 4rem;
              margin-left: 6.5rem;
         }
          .jumbotron-header {
@@ -948,7 +948,7 @@ html {
              text-align: center;
         }
     }
-     @media screen and (max-width: 383px) and (max-height: 813px) {
+     @media(max-width: 375px), (max-height: 813px) {
         /*---------------------navbar*/
          .navbar-brand {
              max-width: 26%;
@@ -972,7 +972,7 @@ html {
              width: 200px;
         }
     }
-     @media screen and (max-width: 321px) {
+     @media screen and (max-width: 320px) {
         /*---------------------navbar*/
          .navbar-brand {
              max-width: 30%;
@@ -983,17 +983,17 @@ html {
              height: 30vh;
         }
          .jumbotron {
-             margin-top: 1.5rem;
+             margin-top: 1.2rem;
              margin-left: 2rem;
         }
          .jumbotron-header {
              font-size: 22px;
         }
          .jumbotron-btn {
-             font-size: 10px;
+             font-size: 9px;
              margin-top: 8px;
-             height: 30px;
-             width: 150px;
+             height: 26px;
+             width: 140px;
         }
         /*---------------------explore*/
          .explore-btn {
@@ -1001,4 +1001,9 @@ html {
         }
     }
 }
- 
+
+        @media (orientation: landscape) and (max-height: 540px) {
+             .callout-container {
+             height: 70vh;
+        }
+    }
