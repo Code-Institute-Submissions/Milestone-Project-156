@@ -147,7 +147,6 @@ All images come with descriptive text. The website is optimised for screen reade
     * [Photopea](https://www.photopea.com/) was used to edit images
     * [Adobe Photoshop Express](https://photoshop.adobe.com/resize) for resizing images
 
-
 ## Testing
 
  - [Encountered Issues](#encounteredissues)
@@ -161,10 +160,53 @@ All images come with descriptive text. The website is optimised for screen reade
 
 ## Deployment
 
+- ### GitHub Pages
+  The project is hosted by GitHub Pages. To deploy it, follow the steps:
+  1. Log in to GitHub and locate the [Milestone-Project-1 Repository](https://github.com/alexandruvalentin/Milestone-Project-1).
+  2. At the top of the Repository, click on the "Settings" Button on the menu.
+  3. Scroll down the Settings page and find the "GitHub Pages" Section.
+  4. Under "Source", click on the dropdown called "**None**" and select "**main**" branch.
+  5. The page will automatically refresh.
+  6. Scroll back down through the page to locate the now published [site link](https://alexandruvalentin.github.io/Milestone-Project-1/) in the "GitHub Pages" section.
+- ### To fork the GitHub Repository
+  By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
+  1. Log in to GitHub and locate the [Milestone-Project-1 Repository](https://github.com/alexandruvalentin/Milestone-Project-1).
+  2. At the top right of the Repository just above the "Settings" Button on the menu, locate and click the "**Fork**" Button.
+  3. You should now have a copy of the original repository in your GitHub account.
+- ### To make a Local Clone
+  1. Log in to GitHub and locate the [Milestone-Project-1 Repository](https://github.com/alexandruvalentin/Milestone-Project-1).
+  2. At the top of the Repository just above the list of files, locate and click the "**Code**" dropdown.
+  3. To clone the repository using HTTPS, under "**Clone**", make sure "**HTTPS**" is selected and copy the link.
+  4. Open Git Bash.
+  5. Change the current working directory to the location where you want the cloned directory to be made.
+  6. Type ```git clone```, and then paste the URL you copied in Step 3.
+    ```
+    $ git clone https://github.com/alexandruvalentin/Milestone-Project-1.git
+    ```
+  7. Press Enter. Your local clone will be created.
+   
+  Click [Here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to find more details about the above process.
+
 ## Credits
 
- - [Content](#content)
- - [Media](#media)
- - [Code](#code)
+  - ### Content
+    - [ButherBox.com](https://www.butcherbox.com/) as a general inspiration.
+
+  - ### Media
+    - [ConvertIco](https://convertico.com/) for converting logo format(.png to .ico).
+    - [Unsplash](https://unsplash.com/) and [Shutterstock](https://www.shutterstock.com/home) for all photos shown on website except for the logo.
+    - [Adobe Photoshop](https://photoshop.com/en) for adding the brand logo on the box of the third image of the How It Works section.
+    - [Coolors](https://coolors.co/) for generating the color palette.
+
+  - ### Code
+    - [Stack Overflow](https://stackoverflow.com/) as a general source.
+    - [W3Schools](https://www.w3schools.com/) as a general source.
+    - [CSS-Tricks](https://css-tricks.com/) as a general source.
+    - [Matt Rudge of Code Institute](https://codeinstitute.net/) for the opaque-overlay of the hero image.
 
 ## Acknowledgements
+
+- **My mentor**: Precious Ijege for continuous and helpful feedback throughout the project.
+- The **Slack** community of Code Institute for feedback.
+- **Peer student**: [Paul Istratoaie](https://github.com/pinco227) for helpful feedback throughout the coding process and for helping with device testing.
+- **My friend and graphic designer** [Bala Cosmin](https://www.behance.net/andreibcosmin) for creating the brand logo.
