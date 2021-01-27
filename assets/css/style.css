@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
  body {
      font-family: "Inter", sans-serif;
      color: #070707;
 }
+
  ::selection {
      color: #FFF;
      background: #e99e4c;
 }
+
  ::-moz-selection {
      color: #FFF;
      background: #e99e4c;
@@ -16,6 +19,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 /**----------NAVBAR----------**/
  #nav-bar {
      position: sticky;
@@ -24,39 +28,48 @@ html {
      background-color: #FFF;
      box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
 }
+
  .navbar-brand {
      display: block;
      max-width: 12%;
      margin-left: 40px;
      margin-right: 0;
 }
+
  .navbar-brand img {
      width: 100%;
 }
+
  .navbar-nav li {
      padding: 0 5px;
 }
+
  .navbar-nav li a {
      color: #070707;
      font-weight: 600;
      font-size: 15px;
      float: right;
 }
+
  .navbar-nav li a:hover {
      text-decoration: underline;
 }
+
  .vertical-bar {
      border-left: 1px solid rgb(218, 215, 215);
      height: 40px;
 }
+
  .toggler:active, .toggler:focus {
      outline: none;
      box-shadow: none;
 }
+
  .fa-bars {
      font-size: 30px;
      font-weight: 800;
 }
+
  .signup-btn {
      text-transform: uppercase;
      font-size: 14px;
@@ -70,11 +83,16 @@ html {
      border-radius: 0;
      letter-spacing: 1px;
 }
- .signup-btn:hover, .signup-btn:active, .signup-btn:focus, .signup-btn:active:focus {
+
+ .signup-btn:hover,
+ .signup-btn:active,
+ .signup-btn:focus,
+ .signup-btn:active:focus {
      background-color: #b37530;
      border-color: #b37530;
      color: #FFF;
 }
+
 /** ----------ALERT Section---------- **/
  .alert-container {
      right: 0;
@@ -84,6 +102,7 @@ html {
      background-color: #1f1300;
      margin-right: 56px;
 }
+
  .alert-container p {
      font-size: 12px;
      font-weight: 600;
@@ -92,6 +111,7 @@ html {
      color: #FFF;
      margin: 10px 0px 10px 0px;
 }
+
 /**----------CALLOUT SECTION---------**/
  .opaque-overlay {
      position: absolute;
@@ -99,8 +119,9 @@ html {
      left: 0;
      height: 100%;
      width: 100%;
-     background-color: rgba(0, 0, 0, 0.2);
+     background-color: rgba(0, 0, 0, 0.4);
 }
+
  .callout-container {
      height: 75vh;
      background: url("../images/hero-image.jpg") fixed;
@@ -116,6 +137,7 @@ html {
      justify-content: left;
      position: relative;
 }
+
 /**----------JUMBOTRON(callout section)---------**/
  .jumbotron {
      background: transparent;
@@ -124,6 +146,7 @@ html {
      margin-left: 12rem;
      margin-bottom: 0;
 }
+
  .jumbotron-header {
      color: #FFF;
      font-size: 50px;
@@ -132,6 +155,7 @@ html {
      text-align: left;
      margin-bottom: 0;
 }
+
  .jumbotron-btn {
      text-transform: uppercase;
      font-size: 15px;
@@ -145,16 +169,19 @@ html {
      border-radius: 0;
      letter-spacing: 1px;
 }
+
  .jumbotron-btn:hover, .jumbotron-btn:active, .jumbotron-btn:focus, .jumbotron-btn:active:focus {
      background-color: #b37530;
      border-color: #b37530;
      color: #FFF;
 }
+
 /**----------SERVICES SECTION----------**/
  #services {
      padding: 3.5rem 0;
      background-color: #F6F8FF;
 }
+
  .services-header {
      text-align: center;
      text-transform: uppercase;
@@ -162,17 +189,20 @@ html {
      font-weight: 800;
      letter-spacing: 2px;
 }
+
  .services-paragraph {
      text-align: center;
      font-weight: 500;
      font-size: 16px;
      margin-bottom: 40px;
 }
+
  #services i {
      font-size: 70px;
      margin-top: 20px;
      margin-bottom: 20px;
 }
+
  .services-feature {
      display: flex;
      flex-direction: column;
@@ -183,18 +213,21 @@ html {
      box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15);
      height: 100%;
 }
+
  .services-feature h3 {
      text-align:center;
      text-transform: uppercase;
      font-size: 1.2rem;
      font-weight: 700;
 }
+
  .services-feature p {
      text-align: center;
      font-size: 14px;
      font-weight: 500;
      color: #8A8E91;
 }
+
  .services-btn {
      text-transform: uppercase;
      font-size: 15px;
@@ -208,6 +241,7 @@ html {
      margin-top: 40px;
      letter-spacing: 1px;
 }
+
  .services-btn:hover,
  .services-btn:active,
  .services-btn:focus,
@@ -216,10 +250,12 @@ html {
      border-color: #b37530;
      color: #FFF;
 }
+
 /**----------HOW IT WORKS SECTION----------**/
  #howitworks {
      padding: 3.5rem 0;
 }
+
  .howitworks-header {
      text-transform: uppercase;
      font-size: 40px;
@@ -227,22 +263,26 @@ html {
      letter-spacing: 2px;
      text-align: center;
 }
+
  .howitworks-paragraph {
      font-weight: 500;
      font-size: 16px;
      margin-bottom: 40px;
      text-align: center;
 }
+
  .howitworks-bg {
      background-size: cover;
      background-position: center center;
      min-height: 450px;
      margin:0;
 }
+
  .col-howitworks {
      position: relative;
      min-height: 200px;
 }
+
  .howitworks-text {
      position: absolute;
      background-color: #FFF;
@@ -254,42 +294,54 @@ html {
      min-height: 200px;
      max-height: 400px;
 }
+
  .howitworks-text h3 {
      font-weight: 700;
      font-size: 2.5rem;
      letter-spacing: 1px;
 }
+
  .howitworks-text h3 strong {
      color: #e99e4c;
 }
+
  .howitworks-text p {
      font-weight: 300;
      color: #8A8E91;
 }
+
  .wesource-text-left .howitworks-text {
      right: -10%;
 }
+
  .wesource-text-left .howitworks-bg {
      margin-left: -10%;
 }
+
  .youchoose-text-right .howitworks-text {
      left: -10%;
 }
+
  .youchoose-text-right .howitworks-bg {
      margin-right: -10%;
 }
+
  .wedeliver-text-left .howitworks-text {
      right: -10%;
 }
+
  .wedeliver-text-left .howitworks-bg {
      margin-left: -10%;
 }
+
  .youenjoy-text-right .howitworks-text {
      left: -10%;
 }
+
  .youenjoy-text-right .howitworks-bg {
      margin-right: -10%;
 }
+
 /* FIRST CARD */
  #we-source {
      margin-bottom: 72px;
@@ -297,6 +349,7 @@ html {
  #we-source .howitworks-bg {
      background-image: url("../images/we-source.jpg");
 }
+
 /* SECOND CARD */
  #you-choose {
      margin-bottom: 72px;
@@ -304,6 +357,7 @@ html {
  #you-choose .howitworks-bg {
      background-image: url("../images/you-choose.jpg");
 }
+
 /* THIRD CARD */
  #we-deliver {
      margin-bottom: 72px;
@@ -311,6 +365,7 @@ html {
  #we-deliver .howitworks-bg {
      background-image: url("../images/we-deliver.jpg");
 }
+
 /* FOURTH CARD */
  #you-enjoy {
      margin-bottom: 72px;
@@ -318,52 +373,61 @@ html {
  #you-enjoy .howitworks-bg {
      background-image: url("../images/you-enjoy.jpg");
 }
+
 /**----------EXPLORE SECTION----------**/
  #explore {
      padding: 3.5rem;
      background-color: #F6F8FF;
 }
+
  .explore-container {
      position: relative;
      padding: 0 5px 0;
 }
+
  .explore-header {
      text-transform: uppercase;
      font-size: 40px;
      font-weight: 800;
      letter-spacing: 2px;
      text-align: center;
-     margin-bottom: 20px;
-     
+     margin-bottom: 20px;     
 }
+
  .explore-paragraph-top {
      font-size: 1rem;
      text-align: center;
      font-family: "Hachi Maru Pop", serif;
      margin-bottom: 40px;
 }
+
  .explore-paragraph-bottom {
      font-size: 1rem;
      text-align: center;
      font-family: "Hachi Maru Pop", serif;
 }
+
  #carouselExampleControls {
      padding: 2rem 2rem 2rem 2rem;
      position: relative;
      height: 340px;
 }
+
  .explore-row {
      background: transparent;
      margin: 0px 20px 0px 20px;
 }
+
  .bundle-feature-left {
      background-color: transparent;
      padding: 0 4rem;
 }
+
  .bundle-feature-right {
      background-color: transparent;
      padding: 0 4rem;
 }
+
  .bundle-feature-left h3 {
      text-transform: uppercase;
      color: #e99e4c;
@@ -371,30 +435,36 @@ html {
      letter-spacing: 0.5px;
      font-size: 30px;
 }
+
  .bundle-feature-left p {
      font-weight: 500;
      font-size: 1rem;
 }
+
  .bundle-feature-left ul {
      padding-top: 20px;
      font-weight: 500;
      font-size: 1rem;
 }
+
  .bundle-feature-right h3 {
      text-transform: uppercase;
      font-weight: 800;
      letter-spacing: 0.5px;
      font-size: 24px;
 }
+
  .bundle-feature-right p {
      font-weight: 500;
      font-size: 1rem;
 }
+
  .bundle-feature-right ul {
      padding-top: 20px;
      font-weight: 500;
      font-size: 1rem;
 }
+
  .explore-btn {
      text-transform: uppercase;
      font-size: 15px;
@@ -408,6 +478,7 @@ html {
      margin-top: 30px;
      letter-spacing: 1px;
 }
+
  .explore-btn:hover,
  .explore-btn:active,
  .explore-btn:focus,
@@ -416,31 +487,38 @@ html {
      border-color: #b37530;
      color: #FFF;
 }
+
  .carousel-control-next {
      width: 25px;
 }
+
  .carousel-control-prev {
      width: 25px;
 }
+
  .carousel-control-next-icon {
      background-color: #e99e4c;
      height: 50px;
      width: 25px;
 }
+
  .carousel-control-prev-icon {
      background-color: #e99e4c;
      height: 50px;
      width: 25px;
 }
+
 /** ----------REVIEW SECTION---------- **/
  #review {
      padding: 3.5rem;
 }
+
  .review-header {
      font-size: 25px;
      font-weight: 500;
      margin: .7em auto;
 }
+
  .review-header:before, .review-header:after {
      content: "";
      display: inline-block;
@@ -449,44 +527,54 @@ html {
      vertical-align: middle;
      border-bottom: 1px rgb(228, 228, 228) solid;
 }
+
  .review-header:after {
      margin: 0 -55% 0 .5em;
 }
+
  .review-header strong {
      color: #e99e4c;
 }
+
  .review {
      border-left: 4px solid #e99e4c;
      margin-top: 50px;
      margin-bottom: 50px;
 }
+
  .review img {
      height: 60px;
      width: 60px;
      border-radius: 50%;
      margin: 0 10px;
 }
+
  .user-details {
      display: inline-block;
 }
+
  .review-alert {
      padding-top: 2rem;
      font-family: "Hachi Maru Pop", serif;
      font-size: 20px;
 }
+
  .review-alert strong {
      color: #e99e4c;
 }
+
  .review-row {
      display: flex;
      min-height: 200px;
      justify-content: center;
      align-items: center;
 }
+
  .review-row p {
      font-weight: 500;
      font-size: 15px;
 }
+
 /**----------FOOTER----------**/
  #footer {
      background-color: rgb(65, 65, 65);
@@ -494,6 +582,7 @@ html {
      border-top: 60px solid rgb(136, 136, 136);
      border-bottom: 60px solid #070707;
 }
+
 /**Slogan Column**/
  #slogan-column {
      display: flex;
@@ -504,6 +593,7 @@ html {
      font-weight: 600;
      text-align: center;
 }
+
 /**Contact Column**/
  #contact-column {
      text-align: center;
@@ -519,6 +609,7 @@ html {
      font-size: 24px;
      margin-right: 10px;
 }
+
 /**CTA Column**/
  #cta-column {
      text-align: center;
@@ -537,7 +628,8 @@ html {
      outline: none;
      box-shadow: none;
 }
- #cta-input:active, #cta-input:focus {
+ #cta-input:active,
+ #cta-input:focus {
      box-shadow: none;
      outline: none;
      border: 2px solid #e99e4c;
@@ -553,12 +645,15 @@ html {
      outline: none;
      margin-top: 10px;
 }
- #cta-column .cta-btn:hover, .cta-btn:active, .cta-btn:focus {
+ #cta-column .cta-btn:hover,
+ .cta-btn:active,
+ .cta-btn:focus {
      background-color: #b37530;
      border: 1px solid #b37530;
      color: #FFF;
      transition: all 0.20s ease-in-out;
 }
+
 /**Social Icons**/
  .social-icons {
      margin-top: 1.5rem;
@@ -578,6 +673,7 @@ html {
      background: #3C5830;
      background-color: #b37530;
 }
+
 /**Copyrights**/
  .copyrights-paragraph {
      margin-top: 1rem;
@@ -586,6 +682,7 @@ html {
      text-align: center;
      vertical-align: middle;
 }
+
 /**SIGN UP Modal Form**/
  .modal-title {
      text-transform: uppercase;
@@ -594,26 +691,32 @@ html {
      color: #e99e4c;
      letter-spacing: 0.5px;
 }
+
  .form-text {
      font-weight: 500;
 }
+
  .form-group {
      text-transform: uppercase;
      text-align: center;
      font-weight: 800;
      letter-spacing: 0.5px;
 }
+
  .claim-button {
      text-align: center;
 }
+
  .form-control, .modal-content {
      border-radius: 0;
 }
- .form-control:active, .form-control:focus {
+ .form-control:active,
+ .form-control:focus {
      box-shadow: none;
      outline: none;
      border: 1px solid #e99e4c;
 }
+
  .claim-btn {
      text-transform: uppercase;
      font-size: 14px;
@@ -626,11 +729,15 @@ html {
      border-radius: 0;
      letter-spacing: 1px;
 }
- .claim-btn:hover, .claim-btn:active, .claim-btn:focus, .claim-btn:active:focus {
+ .claim-btn:hover,
+ .claim-btn:active,
+ .claim-btn:focus,
+ .claim-btn:active:focus {
      background-color: #b37530;
      border-color: #b37530;
      color: #FFF;
 }
+
 /**----------MEDIA QUERIES----------**/
 /*X-LARGE SCREEN*/
  @media screen and (max-width: 1201px) {
@@ -677,6 +784,7 @@ html {
          width: 250px;
     }
 }
+
 /*LARGE SCREEN*/
  @media screen and (max-width: 1024px) {
     /*---------------------sections*/
@@ -692,11 +800,13 @@ html {
      #review {
          padding: 2.5rem 0;
     }
+
     /*---------------------navbar*/
      .navbar-brand {
          max-width: 17%;
          margin-left: 12px;
     }
+
     /*---------------------callout container&jumbotron*/
      .callout-container {
          height: 40vh;
@@ -715,6 +825,7 @@ html {
          height: 45px;
          width: 280px;
     }
+
     /*---------------------howitworks*/
      .howitworks-bg {
          min-height: 300px;
@@ -759,6 +870,7 @@ html {
      .wedeliver-text-left, .wedeliver-text-right {
          margin-bottom: 1rem;
     }
+
     /*---------------------explore*/
      #carouselExampleControls {
          height: 330px;
@@ -801,15 +913,18 @@ html {
          font-size: 0.8rem;
          padding-top: 5px;
     }
+
     /*---------------------review*/
      .review-header:before, .review-header:after {
          display: none;
     }
-     @media screen and (max-width: 768px) {
+
+ @media screen and (max-width: 768px) {
         /*---------------------navbar*/
          .navbar-brand {
              padding: 0;
         }
+
         /*---------------------callout container&jumbotron*/
          .callout-container {
              height: 40vh;
@@ -827,18 +942,21 @@ html {
              height: 42px;
              width: 270px;
         }
+
         /*---------------------services*/
          .services-column {
              margin: 20px 0 20px;
         }
     }
-    /*SMALL SCREEN*/
-     @media screen and (max-width: 576px) {
+
+/*SMALL SCREEN*/
+ @media screen and (max-width: 576px) {
         /*---------------------navbar*/
          .navbar-brand {
              max-width: 22%;
              padding: 0;
         }
+
         /*---------------------callout container&jumbotron*/
          .callout-container {
              height: 40vh;
@@ -856,6 +974,7 @@ html {
              height: 38px;
              width: 250px;
         }
+
         /*---------------------services*/
          .services-header {
              font-size: 30px;
@@ -871,6 +990,7 @@ html {
              height: 42px;
              width: 220px;
         }
+        
         /*---------------------howitworks*/
          #howitworks {
              padding-bottom: 0;
@@ -882,6 +1002,7 @@ html {
              font-size: 14px;
              margin-bottom: 20px;
         }
+
         /*---------------------explore*/
          #explore {
              height: auto;
@@ -896,6 +1017,7 @@ html {
              height: 42px;
              width: 220px;
         }
+
         /*---------------------modal form*/
          .modal-title {
              font-weight: 900;
@@ -913,13 +1035,15 @@ html {
              height: 35px;
         }
     }
-    /*X-SMALL SCREEN*/
-     @media screen and (max-width: 471px) {
+
+/*X-SMALL SCREEN*/
+ @media screen and (max-width: 471px) {
         /*---------------------navbar*/
          .navbar-brand {
              max-width: 24%;
              padding: 0;
         }
+
         /*---------------------callout container&jumbotron*/
          .jumbotron {
              margin-top: 3rem;
@@ -934,6 +1058,7 @@ html {
              height: 36px;
              width: 220px;
         }
+
         /*---------------------explore*/
          .bundle-feature-left {
              padding: 0 20px 0;
@@ -948,7 +1073,8 @@ html {
              text-align: center;
         }
     }
-     @media(max-width: 375px), (max-height: 813px) {
+
+ @media(max-width: 375px), (max-height: 813px) {
         /*---------------------navbar*/
          .navbar-brand {
              max-width: 26%;
@@ -972,7 +1098,8 @@ html {
              width: 200px;
         }
     }
-     @media screen and (max-width: 320px) {
+
+ @media screen and (max-width: 320px) {
         /*---------------------navbar*/
          .navbar-brand {
              max-width: 30%;
@@ -1002,7 +1129,8 @@ html {
     }
 }
 
-        @media (orientation: landscape) and (max-height: 540px) {
+/*LANDSCAPE X-SMALL SCREEN*/
+ @media (orientation: landscape) and (max-height: 540px) {
              .callout-container {
              height: 70vh;
         }
