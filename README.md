@@ -25,6 +25,8 @@ This is the presentation website for a new online service that is aiming to deli
 
  [Live Website](https://alexandruvalentin.github.io/Milestone-Project-1/)
 
+![Am I Responsive](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/readme-images/amiresponsive.jpg)
+
 ## UX
 
 ### __Business Goals__

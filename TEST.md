@@ -38,8 +38,9 @@
     - **FIXED** by adding the following code to the ```.nav-item``` list element: ``` data-toggle="collapse" data-target="#navbarNavDropdown"```. It's been added to the list element instead of the anchor, because it would otherwise disable the anchor's functionality.
  - used [W3C Validator](https://validator.w3.org/) to validate my code: CSS came out clean but HTML showed 8 issues:
 
- ![W3C Validator Results](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/readme-images/HTML-validator.png)
-    - **FIXED** as follows:
+ ![W3C Validator Results](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/readme-images/HTML-validator.jpg)
+
+  - **FIXED** as follows:
   1. changed ```content="IE=7"``` to ```content="IE=edge"```
   2. changed ```<div class="vertical-bar d-none d-lg-block"></div>``` to ```<li class="vertical-bar d-none d-lg-block"></li>```
   3. changed the navigation from a ```section``` element to a ```div```
