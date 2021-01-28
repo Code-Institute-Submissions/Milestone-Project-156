@@ -1,4 +1,4 @@
-# ![logo](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/assets/images/logo-small.png) Butcher's Bundle
+# ![logo](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/readme-images/logo-small.png) Butcher's Bundle
 
 This is the presentation website for a new online service that is aiming to deliver high-quality meat products for families across Ireland, based on a monthly or yearly subscription. Butcher's Bundle is an educational project that serves as the Milestone Project 1 for the **Full-Stack Software Developer** programme powered by **Code Institute**.
 
@@ -139,7 +139,7 @@ All images come with descriptive text. The website is optimised for screen reade
     * [Github](https://www.github.com) for repository hosting
 
 - Wireframes
-    * [Balsamiq](https://balsamiq.com/) for creating [wireframes](#wireframes)
+    * [Balsamiq](https://balsamiq.com/) for creating the [wireframes](#wireframes)
 
 - Media
     * [ConvertIco](https://convertico.com/) for converting the logo format from .png to .ico
@@ -148,15 +148,7 @@ All images come with descriptive text. The website is optimised for screen reade
     * [Adobe Photoshop Express](https://photoshop.adobe.com/resize) for resizing images
 
 ## Testing
-
- - [Encountered Issues](#encounteredissues)
- - [Testing User Stories](#testinguserstories)
- - [Testing Functionality](#testingfunctionality)
- - [Testing Compatibility](#testingfunctionality)
- - [Testing Accessibility](#testingaccessibility)
- - [Testing Performance](#testingperformance)
- - [Code Validation](#codevalidation)
- - [Further Testing](#furthertesting)
+ - ### Click [here](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/TEST.md) for the full testing process.
 
 ## Deployment
 
@@ -190,7 +182,7 @@ All images come with descriptive text. The website is optimised for screen reade
 ## Credits
 
   - ### Content
-    - [ButherBox.com](https://www.butcherbox.com/) as a general inspiration.
+    - [ButcherBox.com](https://www.butcherbox.com/) as a general inspiration.
 
   - ### Media
     - [ConvertIco](https://convertico.com/) for converting logo format(.png to .ico).

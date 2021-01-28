@@ -76,7 +76,6 @@ html {
      font-weight: 800;
      color: #FFF;
      background-color: #e99e4c;
-     border-color: #e99e4c;
      width: 200px;
      height: 40px;
      margin-right: 40px;
@@ -89,7 +88,6 @@ html {
  .signup-btn:focus,
  .signup-btn:active:focus {
      background-color: #b37530;
-     border-color: #b37530;
      color: #FFF;
 }
 
@@ -133,7 +131,6 @@ html {
      -o-background-size: cover;
      background-size: cover;
      display: flex;
-     align-items: left;
      justify-content: left;
      position: relative;
 }
@@ -162,7 +159,6 @@ html {
      font-weight: 800;
      color: #FFF;
      background-color: #e99e4c;
-     border-color: #e99e4c;
      margin-top: 20px;
      height: 50px;
      width: 330px;
@@ -172,7 +168,6 @@ html {
 
  .jumbotron-btn:hover, .jumbotron-btn:active, .jumbotron-btn:focus, .jumbotron-btn:active:focus {
      background-color: #b37530;
-     border-color: #b37530;
      color: #FFF;
 }
 
@@ -234,11 +229,11 @@ html {
      font-weight: 800;
      color: #FFF;
      background-color: #e99e4c;
-     border-color: #e99e4c;
      height: 50px;
      width: 300px;
      border-radius: 0;
      margin-top: 40px;
+     padding-top: 13px;
      letter-spacing: 1px;
 }
 
@@ -247,7 +242,6 @@ html {
  .services-btn:focus,
  .services-btn:active:focus {
      background-color: #b37530;
-     border-color: #b37530;
      color: #FFF;
 }
 
@@ -471,7 +465,6 @@ html {
      font-weight: 800;
      color: #FFF;
      background-color: #e99e4c;
-     border-color: #e99e4c;
      height: 50px;
      width: 300px;
      border-radius: 0;
@@ -484,7 +477,6 @@ html {
  .explore-btn:focus,
  .explore-btn:active:focus {
      background-color: #b37530;
-     border-color: #b37530;
      color: #FFF;
 }
 
@@ -723,7 +715,6 @@ html {
      font-weight: 800;
      color: #FFF;
      background-color: #e99e4c;
-     border-color: #e99e4c;
      width: 200px;
      height: 40px;
      border-radius: 0;
@@ -734,7 +725,6 @@ html {
  .claim-btn:focus,
  .claim-btn:active:focus {
      background-color: #b37530;
-     border-color: #b37530;
      color: #FFF;
 }
 

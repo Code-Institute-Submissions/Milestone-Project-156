@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -15,7 +15,7 @@
 <body>
 
     <!--Navigation Bar-->
-    <section id="nav-bar">
+    <div id="nav-bar">
         <nav class="navbar navbar-expand-lg py-0">
             <a href="#" class="navbar-brand">
                 <img src="assets/images/logo-image.png" alt="Brand Logo" />
@@ -41,7 +41,7 @@
                         <a class="nav-link" href="#review">Testimonials</a>
                     </li>
 
-                    <div class="vertical-bar d-none d-lg-block"></div>
+                    <li class="vertical-bar d-none d-lg-block"></li>
 
                     <li class="active nav-item mr-2" data-toggle="collapse" data-target="#navbarNavDropdown">
                         <a class="nav-link" href="#footer">Contact</a>
@@ -59,7 +59,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!--/.Navigation Bar-->
 
     <!--Callout Section-->
@@ -123,7 +123,8 @@
             <div class="container">
                 <div class="row text-center">
                     <div class="col-12">
-                        <a href="#explore"><button class="btn services-btn shadow-none">Explore Bundles</button></a>
+                        <a href="#explore" class="btn services-btn shadow-none">
+                            Explore Bundles</a>
                     </div>
                 </div>
             </div>
@@ -382,26 +383,26 @@
                     <div class="col-md-5 review">
                         <p>Butcher's Bundle delivery day is by far my favorite day of the month. So comforting
                             knowing we don't have to do as much grocery shopping.</p>
-                        <img src="assets/images/review-img-wmn.jpg" alt="Woman">
+                        <img src="assets/images/review-img-wmn.jpg" alt="Woman Portrait">
                         <p class="user-details"><b>Samantha</b></p>
                     </div>
                     <div class="col-md-5 review">
                         <p>Got my first Butcher's Bundle order last week and I must say it's the best deal out
                             there. Quality AND quantity at the best prices. Thank you guys!</p>
-                        <img src="assets/images/review-img-man.jpg" alt="Man">
+                        <img src="assets/images/review-img-man.jpg" alt="Man Portrait">
                         <p class="user-details"><b>Anthony</b></p>
                     </div>
                     <div class="col-md-5 review">
                         <p>My friend recommended you guys and I was skeptical at first but that changed with the
                             first steak. Incredibly tender, you can really taste the difference!</p>
-                        <img src="assets/images/review-img-man1.jpg" alt="Man">
+                        <img src="assets/images/review-img-man1.jpg" alt="Man Portrait">
                         <p class="user-details"><b>George</b></p>
                     </div>
                     <div class="col-md-5 review">
                         <p>I'm super thankful for the honest business you guys run at Butcher's Bundle. You can
                             taste the freshness in every product and the affordable prices are the cherry on top.
                             Cheers!</p>
-                        <img src="assets/images/review-img-wmn1.jpg" alt="Woman">
+                        <img src="assets/images/review-img-wmn1.jpg" alt="Woman Portrait">
                         <p class="user-details"><b>Angelina</b></p>
                     </div>
                 </div>
@@ -438,7 +439,7 @@
                 <div class="col-lg-4 order-3 order-lg-3 my-4" id="cta-column">
                     <form id="cta-form" method="POST" action="https://formdump.codeinstitute.net/">
                         <label class="cta-label">Join our email newsletter</label><br>
-                        <input type="email" name="email" id="cta-input" aria-describedby="emailHelp" placeholder="Email" required />
+                        <input type="email" name="email" id="cta-input" aria-describedby="cta-input" placeholder="Email" required />
                         <button type="submit" class="cta-btn shadow-none">Submit</button>
                     </form>
 
@@ -481,12 +482,12 @@
     <!--/.Footer Section-->
 
     <!--Modal Form-->
-    <div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="signUpModalLabel" aria-hidden="true">
+    <div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="signUpModal" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <div class="text-center">
-                        <img src="assets/images/logo-image.png" width="180" height="50" />
+                        <img src="assets/images/logo-image.png" width="180" height="50" alt="Brand Logo"/>
                         <h5 class="modal-title" id="cta-modal-title">Free ultimate keto bundle</h5>
                         <p class="modal-text text-muted">Get up to 10 lbs of high-quality meat—a pork butt, bone-in
                             chicken thighs, and ground beef—FREE in your first bundle.
@@ -502,7 +503,7 @@
                         <div class="form-group">
                             <label for="Email">Email address</label>
                             <div>
-                                <input type="email" name="email" class="form-control" id="Email" aria-describedby="emailHelp"
+                                <input type="email" name="email" class="form-control" id="Email" aria-describedby="Email"
                                     placeholder="Enter email" required/>
                             </div>
                         </div>
