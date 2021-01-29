@@ -86,9 +86,9 @@ The website was designed to be intuitive, learnable and consistent.
 ### __Skeleton__
 
 * Wireframes
-    * [Mobile](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/assets/docs/wireframes/mobile.png)
-    * [Tablet](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/assets/docs/wireframes/tablet.png)
-    * [Desktop](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/assets/docs/wireframes/desktop.png) 
+    * [Mobile](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/wireframes/mobile.png)
+    * [Tablet](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/wireframes/tablet.png)
+    * [Desktop](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/wireframes/desktop.png) 
  
 
 ## Features
