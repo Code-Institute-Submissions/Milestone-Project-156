@@ -122,6 +122,8 @@ Provides contact details and an invitation for the user to sign up for the newsl
 - ### Accesibility
 All images come with descriptive text. The website is optimised for screen readers and allows users with impaired vision to zoom in/out anytime.
 
+- ### Features left to implement
+Modal forms to instantly send relevant e-mails to users when they submit for service plan or newsletter.
 
 ## Technologies Used
 
@@ -151,6 +153,24 @@ All images come with descriptive text. The website is optimised for screen reade
 
 ## Testing
  - ### Click [here](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/TEST.md) for the full testing process.
+
+ ### Overview
+
+**[Encountered Issues](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/TEST.md#encountered-issues)**
+**[User Stories](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/TEST.md#testing-user-stories)**
+**[Functionality](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/TEST.md#testing-functionality):** broken links
+**[Functionality](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/TEST.md#testing-functionality):** browser back/forward
+**[Functionality](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/TEST.md#testing-functionality):** form validation
+**[Compatibility](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/TEST.md#testing-compatibility):** Responsiveness
+**[Compatibility](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/TEST.md#testing-compatibility):** System-cross
+**[Compatibility](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/TEST.md#testing-compatibility):** Platform-cross
+**[Compatibility](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/TEST.md#testing-compatibility):** Browser-cross
+**[Performance](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/TEST.md#testing-performance)**
+**[Accessibility](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/TEST.md#testing-accessibility)**
+**[HTML Validation](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/TEST.md#code-validation)**
+**[CSS Validation](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/TEST.md#code-validation)**
+**[Overflow](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/TEST.md#further-testing)**
+**[Spelling](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/TEST.md#further-testing)**
 
 ## Deployment
 
