@@ -102,3 +102,14 @@
 
 ## Testing Accessibility
 > The website's accessibility was also tested using Lighthouse. The result was satisfying.
+
+## Code Validation
+> ### HTML
+> Html was validated with [W3C Validator](https://validator.w3.org/) by direct input. **No errors or issues**. The results are satisfying. 
+> ### CSS
+> CSS was validated with [W3C CSS](https://jigsaw.w3.org/css-validator/) by direct input. The results came clean.
+
+## Further Testing
+ > ### Overflow
+ > The website was tested for overflow using [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) Chrome extension. The results are satisfying.
+ > Spelling was checked thoroughly using [W3C Spell Checker](https://www.w3.org/2002/01/spellchecker). The results are satisfying.
