@@ -105,10 +105,10 @@ It helps the user understand the purpose of the website at a first glance. It al
 Allows the user to claim offers and join the community.
 
 - ### Service Features Section
-Teaches about the main features of the service presented. Being of equal importance, they are presented in line. Underneath them there is another CTA button.
+Presents the main features of the service presented. Being of equal importance, they are presented in line, followed by one more CTA button right beneath them.
 
 - ### Business Model Section
-Information on how the product is obtained, how the business idea works, and how the user can go about joining the service and received the product.
+Information on how to obtain the product, details about the business idea and how the user can go about joining the service.
 
 - ### Slideshow Photo Gallery Section
 Presentation of the whole range of products available which helps the user understand more about the products available.

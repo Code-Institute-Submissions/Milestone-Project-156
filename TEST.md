@@ -78,3 +78,27 @@
  > - modal form: the submit button submits the required email address(the email field asks for email format with ```@```) and collects the data inserted.
  > - explore section: carousel prev/next button slide the content respectively and the CTA underneath opens the modal form.
  > - footer: modal form collects the data insterted if submitted(the email field asks for email format with ```@```) and social media buttons each open the expected link in a new tab.
+
+## Testing Responsiveness
+ > Responsiveness
+ > The website was tested using DevTools and different devices of numerous sizes, for both portrait and landscape, in order to detect any issues. None were found: the website is size compatible.
+ 
+ > ### Operating System test
+ > ### Desktop
+  > The website was tested on Windows 7 and Windows 10. Results as expected: website is desktop system-cross compatible.
+ > ### Mobile
+  > The website was tested on Android 9, Android 10, iOS 12, iOS 13 and iOS 14. Results as expected: website is mobile system-cross compatible.
+
+ > ### Devices test
+ > The website was tested on HP Notebook, Huawei P20, Galaxy S20, iPhone 7/8/11/12/12 Pro, Galaxy Tab 4 and iPad Pro 12.9 2020. Results as expected: website is platform-cross compatible.
+
+ > ### Browser test
+ > The website was tested on Google Chrome, Firefox, Safari and Microsoft Edge. Browsers versions were all up to date. Further testing was done using [BrowserLing](https://www.browserling.com/). Results as expected: website is browser-cross compatible.
+
+## Testing Performance
+> Performance has been tested using the Lighthouse tool of Google Chrome. The results are slightly different every time due to device performance and value estimation. The results are satisfying. See further details below...
+> ![Butcher's Bundle Page Performance](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/readme-images/performance.jpg)
+> ![Butcher's Bundle Page Performance](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/readme-images/performance2.jpg)
+
+## Testing Accessibility
+> The website's accessibility was also tested using Lighthouse. The result was satisfying.
