@@ -90,6 +90,24 @@ The website was designed to be intuitive, learnable and consistent.
     * [Tablet](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/wireframes/tablet.png)
     * [Desktop](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/wireframes/desktop.png) 
  
+### __Design Choices__
+* Colors
+    * The color palette subtly emphasizes the powerful contrast between the seriousness of the neutral colors and the cheerfulness of the two shades of orange, all in attemp to communicate the concept behind our service and products: thoughtful and unrefined.
+
+![Color Palette](https://github.com/alexandruvalentin/Milestone-Project-1/blob/master/readme-images/color-palette.png)
+
+* Typography
+    * Two fonts were used for this project, both with a ```serif``` fallback. They were meant to inspire elegance and honesty:
+      * [Inter](https://fonts.google.com/specimen/Inter?query=inter) was used as a general font.
+      * [Hachi Maru Pop](https://fonts.google.com/specimen/Hachi+Maru+Pop?query=hachi+maru) was used in the Explore Section for its playfulness.
+
+* Media
+    * The hero image displays our product and the immediate hero CTA presents our service.
+    * All the other images used throughout the website are relative to our service or products.
+    * All images have been resized and compressed in order to boost the UX flow.
+
+* Iconography
+    * Icons have been used throughout the website to improve the efficiency of UX.
 
 ## Features
 
