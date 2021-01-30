@@ -1089,6 +1089,12 @@ html {
              height: 32px;
              width: 200px;
         }
+
+        /*---------------------howitworks*/
+         .howitworks-text h3 {
+             font-size: 2rem;
+             letter-spacing: 0px;
+        }
     }
 
  @media screen and (max-width: 320px) {
@@ -1114,6 +1120,7 @@ html {
              height: 26px;
              width: 140px;
         }
+
         /*---------------------explore*/
          .explore-btn {
              margin-top: 70px;
