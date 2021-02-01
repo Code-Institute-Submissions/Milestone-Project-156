@@ -81,19 +81,20 @@
 
 ## Testing Responsiveness
  > Responsiveness
+
  > The website was tested using DevTools and different devices of numerous sizes, for both portrait and landscape, in order to detect any issues. None were found: the website is size compatible.
  
  > ### Operating System test
  > ### Desktop
-  > The website was tested on Windows 7 and Windows 10. Results as expected: website is desktop system-cross compatible.
+  > The website was tested on Windows 7 and Windows 10. All features are responsive and functional from top to bottom. Everything falls into place as intended. No issues or errors. Conclusion: website is desktop system-cross compatible.
  > ### Mobile
-  > The website was tested on Android 9, Android 10, iOS 12, iOS 13 and iOS 14. Results as expected: website is mobile system-cross compatible.
+  > The website was tested on Android 9, Android 10, iOS 12, iOS 13 and iOS 14. All features are responsive and functional from top to bottom. Everything falls into place as intended. No issues or errors. Conclusion: website is mobile system-cross compatible.
 
  > ### Devices test
- > The website was tested on HP Notebook, Huawei P20, Galaxy S20, iPhone 7/8/11/12/12 Pro, Galaxy Tab 4 and iPad Pro 12.9 2020. Results as expected: website is platform-cross compatible.
+ > The website was tested on HP Notebook, Huawei P20, Galaxy S20, iPhone 7/8/11/12/12 Pro, Galaxy Tab 4 and iPad Pro 12.9 2020. All features are responsive and functional from top to bottom. Everything falls into place as intended. No issues or errors. Conclusion: website is platform-cross compatible.
 
  > ### Browser test
- > The website was tested on Google Chrome, Firefox, Safari and Microsoft Edge. Browsers versions were all up to date. Further testing was done using [BrowserLing](https://www.browserling.com/). Results as expected: website is browser-cross compatible.
+ > The website was tested on Google Chrome, Firefox, Safari and Microsoft Edge. Browser versions were all up to date. Further testing was done using [BrowserLing](https://www.browserling.com/). All features are responsive and functional from top to bottom. Everything falls into place as intended. No issues or errors. Conclusion: website is browser-cross compatible.
 
 ## Testing Performance
 > Performance has been tested using the Lighthouse tool of Google Chrome. The results are slightly different every time due to device performance and value estimation. The results are satisfying. See further details below...

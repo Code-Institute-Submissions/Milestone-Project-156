@@ -1,3 +1,6 @@
+/* Google Fonts import: */
+/* Inter, weights: 200-900, general font serif */
+/* Hachi Maru Pop, Explore Section font serif*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
 
@@ -60,7 +63,8 @@ html {
      height: 40px;
 }
 
- .toggler:active, .toggler:focus {
+ .toggler:active,
+ .toggler:focus {
      outline: none;
      box-shadow: none;
 }
@@ -111,6 +115,7 @@ html {
 }
 
 /**----------CALLOUT SECTION---------**/
+/* Code Credit: Matt Rudge of Code Institute: The Whiskey Page Module */
  .opaque-overlay {
      position: absolute;
      top: 0;
@@ -166,7 +171,10 @@ html {
      letter-spacing: 1px;
 }
 
- .jumbotron-btn:hover, .jumbotron-btn:active, .jumbotron-btn:focus, .jumbotron-btn:active:focus {
+ .jumbotron-btn:hover,
+ .jumbotron-btn:active,
+ .jumbotron-btn:focus,
+ .jumbotron-btn:active:focus {
      background-color: #b37530;
      color: #FFF;
 }
@@ -513,6 +521,9 @@ html {
      margin: .7em auto;
 }
 
+/* Code Credit:
+* https://stackoverflow.com/questions/15557627/heading-with-horizontal-line-on-either-side
+* for line crossing horizontally through the header */
  .review-header:before, .review-header:after {
      content: "";
      display: inline-block;
@@ -577,7 +588,7 @@ html {
      border-bottom: 60px solid #070707;
 }
 
-/**Slogan Column**/
+/* Slogan Column */
  #slogan-column {
      display: flex;
      align-items: center;
@@ -588,7 +599,7 @@ html {
      text-align: center;
 }
 
-/**Contact Column**/
+/* Contact Column */
  #contact-column {
      text-align: center;
      font-size: 12px;
@@ -604,7 +615,7 @@ html {
      margin-right: 10px;
 }
 
-/**CTA Column**/
+/* CTA Column */
  #cta-column {
      text-align: center;
      text-transform: uppercase;
@@ -648,7 +659,7 @@ html {
      transition: all 0.20s ease-in-out;
 }
 
-/**Social Icons**/
+/* Social Icons */
  .social-icons {
      margin-top: 1.5rem;
 }
@@ -668,7 +679,7 @@ html {
      background-color: #b37530;
 }
 
-/**Copyrights**/
+/* Copyrights */
  .copyrights-paragraph {
      margin-top: 1rem;
      font-size: 10px;
@@ -677,7 +688,7 @@ html {
      vertical-align: middle;
 }
 
-/**SIGN UP Modal Form**/
+/* Sign Up Modal Form*/
  .modal-title {
      text-transform: uppercase;
      font-weight: 900;
@@ -731,7 +742,7 @@ html {
 }
 
 /**----------MEDIA QUERIES----------**/
-/*X-LARGE SCREEN*/
+/* X-LARGE SCREEN */
  @media screen and (max-width: 1201px) {
     /*---------------------navbar*/
      .signup-btn {
@@ -777,7 +788,7 @@ html {
     }
 }
 
-/*LARGE SCREEN*/
+/* LARGE SCREEN */
  @media screen and (max-width: 1024px) {
     /*---------------------sections*/
      #services {
@@ -941,7 +952,7 @@ html {
         }
     }
 
-/*SMALL SCREEN*/
+/* SMALL SCREEN */
  @media screen and (max-width: 576px) {
         /*---------------------navbar*/
          .navbar-brand {
@@ -1028,7 +1039,7 @@ html {
         }
     }
 
-/*X-SMALL SCREEN*/
+/* X-SMALL SCREEN */
  @media screen and (max-width: 471px) {
         /*---------------------navbar*/
          .navbar-brand {
@@ -1128,7 +1139,7 @@ html {
     }
 }
 
-/*LANDSCAPE X-SMALL SCREEN*/
+/* LANDSCAPE X-SMALL SCREEN */
  @media (orientation: landscape) and (max-height: 540px) {
              .callout-container {
              height: 70vh;
